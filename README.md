@@ -9,6 +9,7 @@ make merging easier for everyone.
 
 For more information on gitignore: [gitattributes(5)][g5]
 
+[gt]: https://github.com/github/gitignore
 [fk]: http://help.github.com/forking/
 [pr]: http://help.github.com/pull-requests/
 [g5]: http://schacon.github.com/git/gitattributes.html

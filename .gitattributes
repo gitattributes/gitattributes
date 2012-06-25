@@ -7,5 +7,5 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
-*.gitattributes
+*.gitattributes text
 

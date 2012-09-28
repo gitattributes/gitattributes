@@ -1,0 +1,6 @@
+# handle swf's and swc's as binaries #
+## stackoverflow.com/questions/1529178/git-flash-builder-workflow-how-do-i-set-it-up-so-git-works-smoothly
+
+*.swf -crlf -diff -merge
+*.swc -crlf -diff -merge
+*.fla -crlf -diff -merge

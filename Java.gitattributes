@@ -6,12 +6,29 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
-*.java text
-*.xml text
-*.txt text
+*.css           text
+*.df            text
+*.htm           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.jsp           text
+*.jspf          text
+*.properties    text
+*.sql           text
+*.svg           text
+*.tld           text
+*.txt           text
+*.xml           text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
-*.jar binary
-*.so binary
-*.dll binary
+*.dll           binary
+*.gif           binary
+*.ico           binary
+*.jar           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
+*.so            binary

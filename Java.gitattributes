@@ -16,6 +16,7 @@
 *.jsp           text
 *.jspf          text
 *.properties    text
+*.sh            text
 *.sql           text
 *.svg           text
 *.tld           text
@@ -24,6 +25,7 @@
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
+*.class         binary
 *.dll           binary
 *.gif           binary
 *.ico           binary
@@ -32,3 +34,5 @@
 *.jpeg          binary
 *.png           binary
 *.so            binary
+*.war           binary
+

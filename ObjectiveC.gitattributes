@@ -1,0 +1,2 @@
+# compare .pbxproj files as binary and always merge as union
+*.pbxproj binary -merge=union

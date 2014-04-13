@@ -8,7 +8,7 @@
 # The above will handle all files NOT found below
 #
 
-# Standard to msysgit
+# Documents
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
 *.docx diff=astextplain

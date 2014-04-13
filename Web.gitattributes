@@ -1,5 +1,4 @@
-# These settings are for WordPress.
-# However, any attribute that may generally be considered as appropriate for web, may also be added here.
+# These settings are for any web project
 
 # Handle line endings automatically for files detected as text
 # and leave all files detected as binary untouched.

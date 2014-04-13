@@ -3,6 +3,9 @@
 Similarly to the [.gitignore Templates][gt], we're trying to build 
 templates for .gitattributes. 
 
+Common.gitattributes contains general exclusions that may apply to any project.
+Consider including them if they are applicable to your project.
+
 Please contribute by [forking][fk] and sending a [pull request][pr].
 
 Also **please** only modify **one file** per commit. This'll

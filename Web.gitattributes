@@ -9,15 +9,28 @@
 #
 
 # These files are text and should be normalized (Convert crlf => lf)
+*.md text
+*.adoc text
+*.textile text
+*.mustache text
+*.csv text
+*.tab text
+*.tsv text
 *.php text
 *.css text
 *.js text
+*.json text
 *.htm text
 *.html text
 *.xml text
 *.txt text
 *.ini text
 *.inc text
+*.pl text
+*.rb text
+*.py text
+*.scm text
+*.sql text
 .htaccess text
 
 # These files are binary and should be left untouched
@@ -37,3 +50,4 @@
 *.zip binary
 *.7z binary
 *.ttf binary
+*.pyc binary

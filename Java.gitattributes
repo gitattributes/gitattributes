@@ -6,6 +6,13 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
+*.md            text
+*.adoc          text
+*.textile       text
+*.mustache      text
+*.csv           text
+*.tab           text
+*.tsv           text
 *.css           text
 *.df            text
 *.htm           text
@@ -22,6 +29,7 @@
 *.tld           text
 *.txt           text
 *.xml           text
+*.sql           text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)

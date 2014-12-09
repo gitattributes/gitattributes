@@ -1,0 +1,7 @@
+# These settings are for Ruby On Rails project
+#
+#
+# Define a dummy ours merge strategy with:
+#
+# $ git config --global merge.ours.driver true
+schema.rb merge=ours

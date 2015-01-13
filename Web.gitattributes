@@ -9,13 +9,6 @@
 #
 
 # These files are text and should be normalized (Convert crlf => lf)
-*.md text
-*.adoc text
-*.textile text
-*.mustache text
-*.csv text
-*.tab text
-*.tsv text
 *.php text
 *.css text
 *.js text

@@ -8,7 +8,11 @@
 # The above will handle all files NOT found below
 #
 
-# These files are text and should be normalized (Convert crlf => lf)
+#
+## These files are text and should be normalized (Convert crlf => lf)
+#
+
+# source code
 *.php text
 *.css text
 *.js text
@@ -24,9 +28,53 @@
 *.py text
 *.scm text
 *.sql text
+*.sh text
+*.bat text
+
+# templates
+*.hbt text
+*.jade text
+*.haml text
+*.hbs text
+*.dot text
+*.tmpl text
+
+# server config
 .htaccess text
 
-# These files are binary and should be left untouched
+# git config
+.gitattributes text
+.gitignore text
+
+# code analysis config
+.jshintrc text
+.jscsrc text
+.jshintignore text
+.csslintrc text
+
+# misc config
+*.yaml text
+*.yml text
+.editorconfig text
+
+# build config
+*.npmignore text
+*.bowerrc text
+
+# Heroku
+Procfile text
+.slugignore text
+
+# Documentation
+*.md text
+LICENSE text
+AUTHORS text
+
+
+#
+## These files are binary and should be left untouched
+#
+
 # (binary is a macro for -text -diff)
 *.png binary
 *.jpg binary

@@ -92,3 +92,4 @@ AUTHORS text
 *.7z binary
 *.ttf binary
 *.pyc binary
+*.pdf binary

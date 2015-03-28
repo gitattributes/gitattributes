@@ -15,7 +15,12 @@
 # source code
 *.php text
 *.css text
+*.sass text
+*.scss text
+*.less text
+*.styl text
 *.js text
+*.coffee text
 *.json text
 *.htm text
 *.html text
@@ -38,6 +43,7 @@
 *.hbs text
 *.dot text
 *.tmpl text
+*.phtml text
 
 # server config
 .htaccess text

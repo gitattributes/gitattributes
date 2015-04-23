@@ -37,6 +37,7 @@
 *.bat text
 
 # templates
+*.ejs text
 *.hbt text
 *.jade text
 *.haml text

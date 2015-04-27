@@ -25,6 +25,7 @@
 *.htm text
 *.html text
 *.xml text
+*.svg text
 *.txt text
 *.ini text
 *.inc text
@@ -98,5 +99,7 @@ AUTHORS text
 *.zip binary
 *.7z binary
 *.ttf binary
+*.eot binary
+*.woff binary
 *.pyc binary
 *.pdf binary

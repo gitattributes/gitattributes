@@ -53,6 +53,7 @@
 # git config
 .gitattributes text
 .gitignore text
+.gitconfig text
 
 # code analysis config
 .jshintrc text

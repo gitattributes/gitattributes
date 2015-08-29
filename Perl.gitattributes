@@ -1,0 +1,6 @@
+# Basic .gitattributes for a perl repo.
+
+# Source files
+# ============
+*.pl 		text
+*.pm 		text

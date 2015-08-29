@@ -1,0 +1,12 @@
+# Basic .gitattributes for a R repo.
+
+# Source files
+# ============
+*.Rdata     text
+*.rdb       binary
+*.rds       binary
+*.Rd        text
+*.Rdx       binary
+*.Rmd		text
+*.R  		text
+

@@ -1,0 +1,25 @@
+# Basic .gitattributes for a MATLAB repo.
+# This template includes Simulink and MuPAD extensions, in addition
+# to the MATLAB extensions.
+
+# Source files
+# ============
+*.m             text        # MATLAB source code
+# Caution: *.m also matches Mathematica packages.
+*.mu            text        # MuPAD code
+
+# Binary files
+# ============
+*.p             binary      # obfuscated .m file
+*.mex*          binary      # compiled .m file
+*.fig           binary      # MATLAB figure
+*.mat           binary      # MATLAB variable dump
+*.mdl           binary      # simulink model
+*.slx           binary      # simulink model
+*.mdlp          binary      # obfuscated simulink model
+*.slxp          binary      # obfuscated simulink model
+*.sldd          binary      # simulink datadirectory
+*.mltbx         binary      # toolbox installer
+*.mlappinstall  binary      # app installer
+*.mlpkginstall  binary      # package installer
+*.mn            binary      # mupad notebook

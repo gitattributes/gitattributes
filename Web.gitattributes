@@ -20,6 +20,7 @@
 *.less text
 *.styl text
 *.js text
+*.ts text
 *.coffee text
 *.json text
 *.htm text
@@ -46,6 +47,7 @@
 *.dot text
 *.tmpl text
 *.phtml text
+*.latte text
 
 # server config
 .htaccess text
@@ -102,5 +104,6 @@ AUTHORS text
 *.ttf binary
 *.eot binary
 *.woff binary
+*.woff2 binary
 *.pyc binary
 *.pdf binary

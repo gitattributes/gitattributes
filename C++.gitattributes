@@ -1,5 +1,5 @@
 #sources
-*.C text
+*.c text
 *.cc text
 *.cxx text
 *.cpp text

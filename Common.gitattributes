@@ -1,3 +1,4 @@
+# ===== Common.gitattributes ===== #
 #common settings that generally should always be used with your language specific settings
 
 # Auto detect text files and perform LF normalization

@@ -1,3 +1,4 @@
+# ===== C++.gitattributes ===== #
 #sources
 *.c text
 *.cc text

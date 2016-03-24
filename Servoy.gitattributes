@@ -1,0 +1,10 @@
+* text=auto
+
+*.frm -text
+*.val -text
+*.tbl -text
+*.rel -text
+*.obj -text
+*.dbi -text
+*.sec -text
+*.css -text

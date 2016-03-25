@@ -62,6 +62,8 @@
 .jscsrc text
 .jshintignore text
 .csslintrc text
+.eslintrc text
+.stylelintrc text
 
 # misc config
 *.yaml text

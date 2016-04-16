@@ -17,7 +17,6 @@
 *.jspf          text
 *.properties    text
 *.sh            text
-*.svg           text
 *.tld           text
 *.txt           text
 *.xml           text

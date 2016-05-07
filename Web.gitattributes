@@ -101,16 +101,34 @@ makefile       text
 Procfile       text
 .slugignore    text
 
+## GRAPHICS
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  text
+*.svgz text
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
 #
 ## These files are binary and should be left untouched
 #
 
 # (binary is a macro for -text -diff)
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.ico binary
 *.mov binary
 *.mp4 binary
 *.mp3 binary
@@ -125,4 +143,3 @@ Procfile       text
 *.woff binary
 *.woff2 binary
 *.pyc binary
-*.pdf binary

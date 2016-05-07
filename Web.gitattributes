@@ -81,27 +81,25 @@ TODO         text
 .jshintignore text
 .stylelintrc  text
 
-# server config
-.htaccess text
-
-# git config
+## CONFIGS
+*.bowerrc      text
+*.cnf          text
+*.conf         text
+*.config       text
+.editorconfig  text
 .gitattributes text
-.gitignore text
-.gitconfig text
+.gitconfig     text
+.gitignore     text
+.htaccess      text
+*.npmignore    text
+*.yaml         text
+*.yml          text
+Makefile       text
+makefile       text
 
-# misc config
-*.yaml text
-*.yml text
-.editorconfig text
-
-# build config
-*.npmignore text
-*.bowerrc text
-
-# Heroku
-Procfile text
-.slugignore text
-
+## HEROKU
+Procfile       text
+.slugignore    text
 
 #
 ## These files are binary and should be left untouched

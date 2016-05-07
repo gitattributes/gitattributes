@@ -133,17 +133,30 @@ Procfile       text
 *.ogg  binary
 *.ra   binary
 
+## VIDEO
+*.3gpp binary
+*.3gp  binary
+*.as   binary
+*.asf  binary
+*.asx  binary
+*.fla  binary
+*.flv  binary
+*.m4v  binary
+*.mng  binary
+*.mov  binary
+*.mp4  binary
+*.mpeg binary
+*.mpg  binary
+*.swc  binary
+*.swf  binary
+*.ts   binary
+*.webm binary
+
 #
 ## These files are binary and should be left untouched
 #
 
 # (binary is a macro for -text -diff)
-*.mov binary
-*.mp4 binary
-*.mp3 binary
-*.flv binary
-*.fla binary
-*.swf binary
 *.gz binary
 *.zip binary
 *.7z binary

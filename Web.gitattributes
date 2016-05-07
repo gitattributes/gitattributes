@@ -73,6 +73,14 @@ TODO         text
 *.phtml      text
 *.tmpl       text
 
+## LINTERS
+.csslintrc    text
+.eslintrc     text
+.jscsrc       text
+.jshintrc     text
+.jshintignore text
+.stylelintrc  text
+
 # server config
 .htaccess text
 
@@ -80,14 +88,6 @@ TODO         text
 .gitattributes text
 .gitignore text
 .gitconfig text
-
-# code analysis config
-.jshintrc text
-.jscsrc text
-.jshintignore text
-.csslintrc text
-.eslintrc text
-.stylelintrc text
 
 # misc config
 *.yaml text

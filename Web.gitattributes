@@ -37,6 +37,29 @@
 *.xml    text
 *.xhtml  text
 
+## DOCUMENTATION
+*.markdown   text
+*.md         text
+*.mdwn       text
+*.mdown      text
+*.mkd        text
+*.mkdn       text
+*.mdtxt      text
+*.mdtext     text
+*.txt        text
+AUTHORS      text
+CHANGELOG    text
+CHANGES      text
+CONTRIBUTING text
+COPYING      text
+INSTALL      text
+license      text
+LICENSE      text
+NEWS         text
+readme       text
+*README*     text
+TODO         text
+
 # templates
 *.ejs text
 *.hbt text
@@ -76,11 +99,6 @@
 # Heroku
 Procfile text
 .slugignore text
-
-# Documentation
-*.md text
-LICENSE text
-AUTHORS text
 
 
 #

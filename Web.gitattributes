@@ -159,13 +159,16 @@ Procfile       text
 *.tar binary
 *.zip binary
 
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+
 #
 ## These files are binary and should be left untouched
 #
 
 # (binary is a macro for -text -diff)
-*.ttf binary
-*.eot binary
-*.woff binary
-*.woff2 binary
 *.pyc binary

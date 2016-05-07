@@ -1,16 +1,18 @@
-# These settings are for any web project
+## GITATTRIBUTES FOR WEB PROJECTS
+#
+# These settings are for any web project.
+#
+# Details per file setting:
+#   text    These files should be normalized (i.e. convert CRLF to LF).
+#   binary  These files are binary and should be left untouched.
+#
+# Note that binary is a macro for -text -diff.
+######################################################################
 
-# Handle line endings automatically for files detected as text
-# and leave all files detected as binary untouched.
+## AUTO-DETECT - Handle line endings automatically for files detected
+## as text and leave all files detected as binary untouched.
+## This will handle all files NOT defined below.
 * text=auto
-
-#
-# The above will handle all files NOT found below
-#
-
-#
-## These files are text and should be normalized (Convert crlf => lf)
-#
 
 ## SOURCE CODE
 *.bat    text
@@ -169,9 +171,3 @@ Procfile       text
 ## EXECUTABLES
 *.exe binary
 *.pyc binary
-
-#
-## These files are binary and should be left untouched
-#
-
-# (binary is a macro for -text -diff)

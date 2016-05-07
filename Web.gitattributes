@@ -124,6 +124,15 @@ Procfile       text
 *.wbmp binary
 *.webp binary
 
+## AUDIO
+*.kar  binary
+*.m4a  binary
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+*.ra   binary
+
 #
 ## These files are binary and should be left untouched
 #

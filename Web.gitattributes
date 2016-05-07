@@ -12,31 +12,30 @@
 ## These files are text and should be normalized (Convert crlf => lf)
 #
 
-# source code
-*.php text
-*.css text
-*.sass text
-*.scss text
-*.less text
-*.styl text
-*.js text
-*.ts text
+## SOURCE CODE
+*.bat    text
 *.coffee text
-*.json text
-*.htm text
-*.html text
-*.xml text
-*.svg text
-*.txt text
-*.ini text
-*.inc text
-*.pl text
-*.rb text
-*.py text
-*.scm text
-*.sql text
-*.sh text
-*.bat text
+*.css    text
+*.htm    text
+*.html   text
+*.inc    text
+*.ini    text
+*.js     text
+*.json   text
+*.less   text
+*.php    text
+*.pl     text
+*.py     text
+*.rb     text
+*.sass   text
+*.scm    text
+*.scss   text
+*.sh     text
+*.sql    text
+*.styl   text
+*.ts     text
+*.xml    text
+*.xhtml  text
 
 # templates
 *.ejs text

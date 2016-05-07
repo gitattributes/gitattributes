@@ -152,14 +152,18 @@ Procfile       text
 *.ts   binary
 *.webm binary
 
+## ARCHIVES
+*.7z  binary
+*.gz  binary
+*.rar binary
+*.tar binary
+*.zip binary
+
 #
 ## These files are binary and should be left untouched
 #
 
 # (binary is a macro for -text -diff)
-*.gz binary
-*.zip binary
-*.7z binary
 *.ttf binary
 *.eot binary
 *.woff binary

@@ -60,16 +60,18 @@ readme       text
 *README*     text
 TODO         text
 
-# templates
-*.ejs text
-*.hbt text
-*.jade text
-*.haml text
-*.hbs text
-*.dot text
-*.tmpl text
-*.phtml text
-*.latte text
+## TEMPLATES
+*.dot        text
+*.ejs        text
+*.haml       text
+*.handlebars text
+*.hbs        text
+*.hbt        text
+*.jade       text
+*.latte      text
+*.mustache   text
+*.phtml      text
+*.tmpl       text
 
 # server config
 .htaccess text

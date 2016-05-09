@@ -120,7 +120,7 @@ Procfile       text
 *.psb  binary
 *.psd  binary
 *.svg  text
-*.svgz text
+*.svgz binary
 *.tif  binary
 *.tiff binary
 *.wbmp binary

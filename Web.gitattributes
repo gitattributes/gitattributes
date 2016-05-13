@@ -1,111 +1,173 @@
-# These settings are for any web project
+## GITATTRIBUTES FOR WEB PROJECTS
+#
+# These settings are for any web project.
+#
+# Details per file setting:
+#   text    These files should be normalized (i.e. convert CRLF to LF).
+#   binary  These files are binary and should be left untouched.
+#
+# Note that binary is a macro for -text -diff.
+######################################################################
 
-# Handle line endings automatically for files detected as text
-# and leave all files detected as binary untouched.
+## AUTO-DETECT - Handle line endings automatically for files detected
+## as text and leave all files detected as binary untouched.
+## This will handle all files NOT defined below.
 * text=auto
 
-#
-# The above will handle all files NOT found below
-#
-
-#
-## These files are text and should be normalized (Convert crlf => lf)
-#
-
-# source code
-*.php text
-*.css text
-*.sass text
-*.scss text
-*.less text
-*.styl text
-*.js text
-*.ts text
+## SOURCE CODE
+*.bat    text
 *.coffee text
-*.json text
-*.htm text
-*.html text
-*.xml text
-*.svg text
-*.txt text
-*.ini text
-*.inc text
-*.pl text
-*.rb text
-*.py text
-*.scm text
-*.sql text
-*.sh text
-*.bat text
+*.css    text
+*.htm    text
+*.html   text
+*.inc    text
+*.ini    text
+*.js     text
+*.json   text
+*.less   text
+*.php    text
+*.pl     text
+*.py     text
+*.rb     text
+*.sass   text
+*.scm    text
+*.scss   text
+*.sh     text
+*.sql    text
+*.styl   text
+*.ts     text
+*.xml    text
+*.xhtml  text
 
-# templates
-*.ejs text
-*.hbt text
-*.jade text
-*.haml text
-*.hbs text
-*.dot text
-*.tmpl text
-*.phtml text
-*.latte text
+## DOCUMENTATION
+*.markdown   text
+*.md         text
+*.mdwn       text
+*.mdown      text
+*.mkd        text
+*.mkdn       text
+*.mdtxt      text
+*.mdtext     text
+*.txt        text
+AUTHORS      text
+CHANGELOG    text
+CHANGES      text
+CONTRIBUTING text
+COPYING      text
+INSTALL      text
+license      text
+LICENSE      text
+NEWS         text
+readme       text
+*README*     text
+TODO         text
 
-# server config
-.htaccess text
+## TEMPLATES
+*.dot        text
+*.ejs        text
+*.haml       text
+*.handlebars text
+*.hbs        text
+*.hbt        text
+*.jade       text
+*.latte      text
+*.mustache   text
+*.phtml      text
+*.tmpl       text
 
-# git config
-.gitattributes text
-.gitignore text
-.gitconfig text
-
-# code analysis config
-.jshintrc text
-.jscsrc text
+## LINTERS
+.csslintrc    text
+.eslintrc     text
+.jscsrc       text
+.jshintrc     text
 .jshintignore text
-.csslintrc text
-.eslintrc text
-.stylelintrc text
+.stylelintrc  text
 
-# misc config
-*.yaml text
-*.yml text
-.editorconfig text
+## CONFIGS
+*.bowerrc      text
+*.cnf          text
+*.conf         text
+*.config       text
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+.gitignore     text
+.htaccess      text
+*.npmignore    text
+*.yaml         text
+*.yml          text
+Makefile       text
+makefile       text
 
-# build config
-*.npmignore text
-*.bowerrc text
+## HEROKU
+Procfile       text
+.slugignore    text
 
-# Heroku
-Procfile text
-.slugignore text
-
-# Documentation
-*.md text
-LICENSE text
-AUTHORS text
-
-
-#
-## These files are binary and should be left untouched
-#
-
-# (binary is a macro for -text -diff)
-*.png binary
-*.jpg binary
+## GRAPHICS
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
 *.jpeg binary
-*.gif binary
-*.ico binary
-*.mov binary
-*.mp4 binary
-*.mp3 binary
-*.flv binary
-*.fla binary
-*.swf binary
-*.gz binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  text
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+## AUDIO
+*.kar  binary
+*.m4a  binary
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+*.ra   binary
+
+## VIDEO
+*.3gpp binary
+*.3gp  binary
+*.as   binary
+*.asf  binary
+*.asx  binary
+*.fla  binary
+*.flv  binary
+*.m4v  binary
+*.mng  binary
+*.mov  binary
+*.mp4  binary
+*.mpeg binary
+*.mpg  binary
+*.swc  binary
+*.swf  binary
+*.ts   binary
+*.webm binary
+
+## ARCHIVES
+*.7z  binary
+*.gz  binary
+*.rar binary
+*.tar binary
 *.zip binary
-*.7z binary
-*.ttf binary
-*.eot binary
-*.woff binary
+
+## FONTS
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
 *.woff2 binary
+
+## EXECUTABLES
+*.exe binary
 *.pyc binary
-*.pdf binary

@@ -151,7 +151,6 @@ Procfile       text
 *.mpg  binary
 *.swc  binary
 *.swf  binary
-*.ts   binary
 *.webm binary
 
 ## ARCHIVES

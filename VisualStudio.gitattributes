@@ -8,6 +8,7 @@
 *.vbproj text eol=crlf
 *.fsproj text eol=crlf
 *.dbproj text eol=crlf
+*.xproj  text eol=crlf
 
 *.vcxproj text eol=crlf
 *.vcxitems text eol=crlf

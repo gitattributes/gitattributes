@@ -15,10 +15,13 @@
 *.json          text
 *.jsp           text
 *.jspf          text
+*.jspx          text
 *.properties    text
 *.sh            text
 *.tld           text
 *.txt           text
+*.tag           text
+*.tagx          text
 *.xml           text
 
 # These files are binary and should be left untouched

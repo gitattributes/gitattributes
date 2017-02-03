@@ -36,7 +36,9 @@
 *.sh     text
 *.sql    text
 *.styl   text
+*.tpl    text
 *.ts     text
+*.twig   text
 *.xml    text
 *.xhtml  text
 

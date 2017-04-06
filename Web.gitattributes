@@ -9,38 +9,39 @@
 # Note that binary is a macro for -text -diff.
 ######################################################################
 
-## AUTO-DETECT - Handle line endings automatically for files detected
-## as text and leave all files detected as binary untouched.
-## This will handle all files NOT defined below.
+## AUTO-DETECT
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
 * text=auto
 
 ## SOURCE CODE
-*.bat    text eol=crlf
-*.coffee text
-*.css    text
-*.htm    text
-*.html   text
-*.inc    text
-*.ini    text
-*.js     text
-*.jsx    text
-*.json   text
-*.less   text
-*.php    text
-*.pl     text
-*.py     text
-*.rb     text
-*.sass   text
-*.scm    text
-*.scss   text
-*.sh     text
-*.sql    text
-*.styl   text
-*.tpl    text
-*.ts     text
-*.twig   text
-*.xml    text
-*.xhtml  text
+*.bat      text eol=crlf
+*.coffee   text
+*.css      text
+*.htm      text
+*.html     text
+*.inc      text
+*.ini      text
+*.js       text
+*.json     text
+*.jsx      text
+*.less     text
+*.od       text
+*.onlydata text
+*.php      text
+*.pl       text
+*.py       text
+*.rb       text
+*.sass     text
+*.scm      text
+*.scss     text
+*.sh       text
+*.sql      text
+*.styl     text
+*.ts       text
+*.xml      text
+*.xhtml    text
 
 ## DOCUMENTATION
 *.markdown   text
@@ -57,6 +58,8 @@ CHANGELOG    text
 CHANGES      text
 CONTRIBUTING text
 COPYING      text
+copyright    text
+*COPYRIGHT*  text
 INSTALL      text
 license      text
 LICENSE      text
@@ -75,9 +78,11 @@ TODO         text
 *.jade       text
 *.latte      text
 *.mustache   text
+*.njk        text
 *.phtml      text
 *.tmpl       text
-*.njk        text
+*.tpl        text
+*.twig       text
 
 ## LINTERS
 .csslintrc    text
@@ -104,8 +109,8 @@ Makefile       text
 makefile       text
 
 ## HEROKU
-Procfile       text
-.slugignore    text
+Procfile    text
+.slugignore text
 
 ## GRAPHICS
 *.ai   binary

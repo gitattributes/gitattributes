@@ -16,30 +16,32 @@
 * text=auto
 
 ## SOURCE CODE
-*.bat    text eol=crlf
-*.coffee text
-*.css    text
-*.htm    text
-*.html   text
-*.inc    text
-*.ini    text
-*.js     text
-*.json   text
-*.jsx    text
-*.less   text
-*.php    text
-*.pl     text
-*.py     text
-*.rb     text
-*.sass   text
-*.scm    text
-*.scss   text
-*.sh     text
-*.sql    text
-*.styl   text
-*.ts     text
-*.xml    text
-*.xhtml  text
+*.bat      text eol=crlf
+*.coffee   text
+*.css      text
+*.htm      text
+*.html     text
+*.inc      text
+*.ini      text
+*.js       text
+*.json     text
+*.jsx      text
+*.less     text
+*.od       text
+*.onlydata text
+*.php      text
+*.pl       text
+*.py       text
+*.rb       text
+*.sass     text
+*.scm      text
+*.scss     text
+*.sh       text
+*.sql      text
+*.styl     text
+*.ts       text
+*.xml      text
+*.xhtml    text
 
 ## DOCUMENTATION
 *.markdown   text

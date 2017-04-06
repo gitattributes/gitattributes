@@ -9,9 +9,10 @@
 # Note that binary is a macro for -text -diff.
 ######################################################################
 
-## AUTO-DETECT - Handle line endings automatically for files detected
-## as text and leave all files detected as binary untouched.
-## This will handle all files NOT defined below.
+## AUTO-DETECT
+##   Handle line endings automatically for files detected as
+##   text and leave all files detected as binary untouched.
+##   This will handle all files NOT defined below.
 * text=auto
 
 ## SOURCE CODE
@@ -23,8 +24,8 @@
 *.inc    text
 *.ini    text
 *.js     text
-*.jsx    text
 *.json   text
+*.jsx    text
 *.less   text
 *.php    text
 *.pl     text
@@ -36,9 +37,7 @@
 *.sh     text
 *.sql    text
 *.styl   text
-*.tpl    text
 *.ts     text
-*.twig   text
 *.xml    text
 *.xhtml  text
 
@@ -75,9 +74,11 @@ TODO         text
 *.jade       text
 *.latte      text
 *.mustache   text
+*.njk        text
 *.phtml      text
 *.tmpl       text
-*.njk        text
+*.tpl        text
+*.twig       text
 
 ## LINTERS
 .csslintrc    text
@@ -104,8 +105,8 @@ Makefile       text
 makefile       text
 
 ## HEROKU
-Procfile       text
-.slugignore    text
+Procfile    text
+.slugignore text
 
 ## GRAPHICS
 *.ai   binary

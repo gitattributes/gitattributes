@@ -43,6 +43,10 @@
 *.xml      text
 *.xhtml    text
 
+## DOCKER
+*.dockerignore    text
+Dockerfile    text
+
 ## DOCUMENTATION
 *.markdown   text
 *.md         text

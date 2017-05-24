@@ -40,6 +40,7 @@
 *.sql      text
 *.styl     text
 *.ts       text
+*.tsx      text
 *.xml      text
 *.xhtml    text
 

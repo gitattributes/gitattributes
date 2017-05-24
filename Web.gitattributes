@@ -101,6 +101,7 @@ TODO         text
 *.cnf          text
 *.conf         text
 *.config       text
+.browserslistrc    text
 .editorconfig  text
 .gitattributes text
 .gitconfig     text
@@ -109,6 +110,7 @@ TODO         text
 *.npmignore    text
 *.yaml         text
 *.yml          text
+browserslist   text
 Makefile       text
 makefile       text
 

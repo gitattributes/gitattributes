@@ -36,7 +36,7 @@
 *.sass     text
 *.scm      text
 *.scss     text
-*.sh       text
+*.sh       text eol=lf
 *.sql      text
 *.styl     text
 *.ts       text

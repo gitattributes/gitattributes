@@ -167,6 +167,7 @@ Procfile    text
 *.mp4  binary
 *.mpeg binary
 *.mpg  binary
+*.ogv  binary
 *.swc  binary
 *.swf  binary
 *.webm binary
@@ -174,6 +175,7 @@ Procfile    text
 ## ARCHIVES
 *.7z  binary
 *.gz  binary
+*.jar binary
 *.rar binary
 *.tar binary
 *.zip binary

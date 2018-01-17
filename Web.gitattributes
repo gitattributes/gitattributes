@@ -108,7 +108,6 @@ TODO         text
 .editorconfig  text
 .gitattributes text
 .gitconfig     text
-.gitignore     text
 .htaccess      text
 *.npmignore    text
 *.yaml         text

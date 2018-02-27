@@ -6,6 +6,7 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
+*.adoc          text
 *.css           text
 *.df            text
 *.htm           text
@@ -16,6 +17,7 @@
 *.jsp           text
 *.jspf          text
 *.jspx          text
+*.md            text
 *.properties    text
 *.sh            text
 *.tld           text

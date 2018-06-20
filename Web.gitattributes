@@ -19,8 +19,8 @@
 *.bat      text eol=crlf
 *.coffee   text
 *.css      text
-*.htm      text
-*.html     text
+*.htm      text diff=html
+*.html     text diff=html
 *.inc      text
 *.ini      text
 *.js       text
@@ -29,10 +29,10 @@
 *.less     text
 *.od       text
 *.onlydata text
-*.php      text
+*.php      text diff=php
 *.pl       text
-*.py       text
-*.rb       text
+*.py       text diff=python
+*.rb       text diff=ruby
 *.sass     text
 *.scm      text
 *.scss     text
@@ -43,7 +43,7 @@
 *.ts       text
 *.tsx      text
 *.xml      text
-*.xhtml    text
+*.xhtml    text diff=html
 
 ## DOCKER
 *.dockerignore    text

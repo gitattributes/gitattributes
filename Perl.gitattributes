@@ -2,5 +2,5 @@
 
 # Source files
 # ============
-*.pl 		text
-*.pm 		text
+*.pl 		text diff=perl
+*.pm 		text diff=perl

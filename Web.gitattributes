@@ -42,6 +42,7 @@
 *.tag      text
 *.ts       text
 *.tsx      text
+*.vue      text
 *.xml      text
 *.xhtml    text
 
@@ -104,11 +105,15 @@ TODO         text
 *.cnf          text
 *.conf         text
 *.config       text
+.babelrc       text
 .browserslistrc    text
 .editorconfig  text
+.env           text
 .gitattributes text
 .gitconfig     text
+.gitignore     text
 .htaccess      text
+*.lock         text
 *.npmignore    text
 *.yaml         text
 *.yml          text

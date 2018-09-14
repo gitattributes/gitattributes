@@ -50,6 +50,7 @@
 Dockerfile    text
 
 ## DOCUMENTATION
+*.ipynb      text
 *.markdown   text
 *.md         text
 *.mdwn       text

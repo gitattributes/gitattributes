@@ -41,3 +41,10 @@
 *.svg binary
 #*.svg text
 *.eps binary
+
+#
+# Exclude files from exporting
+#
+
+.gitattributes export-ignore
+.gitignore export-ignore

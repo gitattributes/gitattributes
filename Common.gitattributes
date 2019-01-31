@@ -20,6 +20,7 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 *.md text
+*.tex text
 *.adoc text
 *.textile text
 *.mustache text

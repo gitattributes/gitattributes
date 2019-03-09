@@ -3,4 +3,4 @@
 * text=auto
 
 # Ada files
-*.ada diff=ada
+*.ada text diff=ada

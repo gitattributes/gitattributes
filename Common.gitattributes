@@ -9,6 +9,7 @@
 #
 
 # Documents
+*.bibtex text diff=bibtex
 *.doc	 diff=astextplain
 *.DOC	 diff=astextplain
 *.docx diff=astextplain
@@ -20,7 +21,7 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 *.md text
-*.tex text
+*.tex text diff=tex
 *.adoc text
 *.textile text
 *.mustache text

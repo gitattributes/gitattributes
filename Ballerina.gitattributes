@@ -9,8 +9,8 @@
 *.bal           text
 *.css           text
 *.df            text
-*.htm           text
-*.html          text
+*.htm           text diff=html
+*.html          text diff=html
 *.js            text
 *.json          text
 *.properties    text
@@ -33,4 +33,3 @@
 *.jpeg          binary
 *.png           binary
 *.so            binary
-

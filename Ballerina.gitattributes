@@ -7,7 +7,7 @@
 #
 # These files are text and should be normalized (Convert crlf => lf)
 *.bal           text
-*.css           text
+*.css           text diff=css
 *.df            text
 *.htm           text
 *.html          text
@@ -33,4 +33,3 @@
 *.jpeg          binary
 *.png           binary
 *.so            binary
-

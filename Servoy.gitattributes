@@ -7,5 +7,5 @@
 *.obj -text
 *.dbi -text
 *.sec -text
-*.css -text
+*.css -text diff=css
 *.js eol=lf

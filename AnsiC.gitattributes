@@ -1,0 +1,30 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+*.c             text diff=c
+*.h             text diff=c
+*.json          text
+*.rc            text
+*.sh            text
+*.txt           text
+*.yml           text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.dll           binary
+*.exe           binary
+*.gif           binary
+*.lib           binary
+*.ico           binary
+*.jpg           binary
+*.jpeg          binary
+*.o             binary
+*.obj           binary
+*.png           binary
+*.res           binary
+*.so            binary

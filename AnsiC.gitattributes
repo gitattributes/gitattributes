@@ -10,7 +10,7 @@
 *.h             text diff=c
 *.json          text
 *.rc            text
-*.sh            text
+*.sh            text eol=lf
 *.txt           text
 *.yml           text
 

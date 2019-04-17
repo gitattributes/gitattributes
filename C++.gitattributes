@@ -1,4 +1,4 @@
-#sources
+# Sources
 *.c text diff=c
 *.cc text diff=cpp
 *.cxx text diff=cpp

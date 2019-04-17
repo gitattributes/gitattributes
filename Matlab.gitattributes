@@ -4,8 +4,8 @@
 
 # Source files
 # ============
-*.m             text
-*.mu            text
+*.m             text diff=matlab
+*.mu            text diff=matlab
 
 # Caution: *.m also matches Mathematica packages.
 

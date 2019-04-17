@@ -9,8 +9,8 @@
 *.bal           text
 *.css           text diff=css
 *.df            text
-*.htm           text
-*.html          text
+*.htm           text diff=html
+*.html          text diff=html
 *.js            text
 *.json          text
 *.properties    text

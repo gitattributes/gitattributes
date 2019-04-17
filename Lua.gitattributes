@@ -7,4 +7,4 @@
 # Luadoc output
 # =============
 *.html      text
-*.css       text
+*.css       text diff=css

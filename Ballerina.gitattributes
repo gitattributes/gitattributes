@@ -7,7 +7,7 @@
 #
 # These files are text and should be normalized (Convert crlf => lf)
 *.bal           text
-*.css           text
+*.css           text diff=css
 *.df            text
 *.htm           text diff=html
 *.html          text diff=html

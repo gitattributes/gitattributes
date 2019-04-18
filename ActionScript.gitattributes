@@ -1,6 +1,23 @@
-# handle swf's and swc's as binaries #
-## stackoverflow.com/questions/1529178/git-flash-builder-workflow-how-do-i-set-it-up-so-git-works-smoothly
+# Adobe Flash authoring file
+*.fla  text
 
-*.swf -crlf -diff -merge
-*.swc -crlf -diff -merge
-*.fla -crlf -diff -merge
+# ActionScript file
+*.as   text
+
+# Flash XML file
+*.xml  text
+
+# Treat .swf and .swc as binary
+# https://stackoverflow.com/q/1529178
+
+# Compiled Flash file
+*.swf  binary -crlf -diff -merge
+
+# Compiled Flash Library/Script
+*.swc  binary -crlf -diff -merge
+
+# ActionScript Communication file
+*.asc  text
+
+# Flash JavaScript file
+*.jsfl text

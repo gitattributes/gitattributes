@@ -4,4 +4,4 @@
 # Define a dummy ours merge strategy with:
 #
 # $ git config --global merge.ours.driver true
-schema.rb merge=ours
+schema.rb merge=ours diff=ruby

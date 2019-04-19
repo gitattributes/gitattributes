@@ -10,7 +10,7 @@
 *.df            text
 *.htm           text diff=html
 *.html          text diff=html
-*.java          text
+*.java          text diff=java
 *.js            text
 *.json          text
 *.jsp           text
@@ -32,7 +32,7 @@
 *.ear           binary
 *.gif           binary
 *.ico           binary
-*.jar           binary diff=java
+*.jar           binary
 *.jpg           binary
 *.jpeg          binary
 *.png           binary

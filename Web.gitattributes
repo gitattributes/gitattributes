@@ -35,7 +35,7 @@
 *.rb            text diff=ruby
 *.sass          text
 *.scm           text
-*.scss          text
+*.scss          text diff=css
 *.sh            text eol=lf
 *.sql           text
 *.styl          text

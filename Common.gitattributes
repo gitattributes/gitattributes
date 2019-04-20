@@ -2,53 +2,53 @@
 
 # Auto detect text files and perform LF normalization
 # https://www.davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
-* text=auto
+*          text=auto
 
 #
 # The above will handle all files NOT found below
 #
 
 # Documents
-*.bibtex text diff=bibtex
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
-*.md text
-*.tex text diff=tex
-*.adoc text
-*.textile text
+*.bibtex   text diff=bibtex
+*.doc	        diff=astextplain
+*.DOC	        diff=astextplain
+*.docx          diff=astextplain
+*.DOCX          diff=astextplain
+*.dot           diff=astextplain
+*.DOT           diff=astextplain
+*.pdf           diff=astextplain
+*.PDF           diff=astextplain
+*.rtf           diff=astextplain
+*.RTF	        diff=astextplain
+*.md       text
+*.tex      text diff=tex
+*.adoc     text
+*.textile  text
 *.mustache text
-*.csv text
-*.tab text
-*.tsv text
-*.sql text
+*.csv      text
+*.tab      text
+*.tsv      text
+*.sql      text
 
 # Graphics
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.gif binary
-*.tif binary
-*.tiff binary
-*.ico binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.tif      binary
+*.tiff     binary
+*.ico      binary
 # SVG treated as an asset (binary) by default.
-*.svg text
+*.svg      text
 # If you want to treat it as text,
 # use the following line instead.
-# *.svg binary
+# *.svg    binary
 
-*.eps binary
+*.eps      binary
 
 #
 # Exclude files from exporting
 #
 
 .gitattributes export-ignore
-.gitignore export-ignore
+.gitignore     export-ignore

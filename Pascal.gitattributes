@@ -1,62 +1,62 @@
 # Lazarus Project Information file (stored in XML; contains project-specific settings)
-*.lpi text
+*.lpi      text
 
 # Lazarus Program file; contains Pascal source of main program
-*.lpr text
+*.lpr      text
 
 # Lazarus Form file; contains configuration information for all objects on a form
 # (stored in a Lazarus-specific format; the actions are described by Pascal source code in a corresponding *.pas file)
-*.lfm text
+*.lfm      text
 
 # Unit with Pascal code (typically for a form stored in a corresponding *.lfm file)
-*.pas text diff=pascal
+*.pas      text diff=pascal
 
 # Pascal code
-*.pp text diff=pascal
+*.pp       text diff=pascal
 
 # Lazarus Resource file (this is a generated file; not to be confused with a Windows resource file).
-*.lrs text
+*.lrs      text
 
 # Compiled unit, symbols part.
-*.ppu binary
+*.ppu      binary
 
 # (1) Compiled unit, code part.
 # (2) Compiled code from other compilers (e.g. gcc)
-*.o binary
+*.o        binary
 
 # Object resource, automatically generated from {$R} directive.
-*.or text
+*.or       text
 
 # (1) Compiled unit, code part for smartlinking (on some platforms)
 # (2) Compiled code from other compilers (e.g. gcc) linked into a static library
-*.a binary
+*.a        binary
 
 # Lazarus package information file. (stored in XML; contains package-specific settings)
-*.lpk text
+*.lpk      text
 
 # Include file
-*.inc text
+*.inc      text
 
 # Lazarus Project Session file. See Project Options -> Save session information in
-*.lps text
+*.lps      text
 
 # Lazarus Resourcestring table created when saving a lfm file and i18n is enabled. It contains the TTranslateString properties of the lfm.
-*.lrt text
+*.lrt      text
 
 # Resourcestring table created by the compiler for every unit with a resourcestring section.
-*.rst text
+*.rst      text
 
 # Resourcestring table in JSON format created by FPC 2.7.1 for units with resourcestring section.
-*.rsj text
+*.rsj      text
 
 # Compilation session for a project
 *.compiled text
 
 # Resource file
-*.res text
+*.res      text
 
 # Lazarus resource form file
-*.rc text
+*.rc       text
 
 # Icon file
-*.ico binary
+*.ico      binary

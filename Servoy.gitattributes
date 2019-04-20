@@ -1,4 +1,6 @@
-* text=auto
+# Auto detect text files and perform LF normalization
+# https://www.davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+*          text=auto
 
 *.frm -text
 *.val -text
@@ -7,5 +9,5 @@
 *.obj -text
 *.dbi -text
 *.sec -text
-*.css -text diff=css
-*.js eol=lf
+*.css text diff=css
+*.js       seol=lf

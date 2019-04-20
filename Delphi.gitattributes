@@ -3,93 +3,93 @@
 #
 
 # Delphi form module
-*.dfm text
+*.dfm  text
 
 # Delphi project options file
-*.dof text
+*.dof  text
 
 # Desktop configuration
-*.dsk binary
+*.dsk  binary
 
 #
 # General
 #
 
 # Text file
-*.txt text
+*.txt  text
 
 # Gettext Portable Object
-*.po binary
+*.po   binary
 
 # Backup
-*.bak binary
+*.bak  binary
 
 # Config file
-*.cfg text
+*.cfg  text
 
 # Compiled Help File - contains html. See also package chm
-*.chm binary
+*.chm  binary
 
 # Comma Separated Values text file format
-*.csv text
+*.csv  text
 
 # Directly executable program
-*.exe binary
+*.exe  binary
 
 # Help file
-*.hlp binary
+*.hlp  binary
 
 # Initialization file
-*.ini text
+*.ini  text
 
 # OpenDocument text document
-*.odt text
+*.odt  text
 
 # Portable Document Format
-*.pdf text
+*.pdf  text
 
 # PostScript
-*.ps text
+*.ps   text
 
 # Rich Text Format text file
-*.rtf text
+*.rtf  text
 
 #
 # Image
 #
 
 # Portable network graphic
-*.png binary
+*.png  binary
 
 # Bitmap
-*.bmp binary
+*.bmp  binary
 
 # Icon
-*.ico binary
+*.ico  binary
 
 # Pixmap
-*.xpm binary
+*.xpm  binary
 
 # Portable pixmap
-*.ppm binary
+*.ppm  binary
 
 # Portable graymap
-*.pgm binary
+*.pgm  binary
 
 # Portable bitmap
-*.pbm binary
+*.pbm  binary
 
 # Lossy graphics file
-*.jpg binary
+*.jpg  binary
 
 #
 # XML
 #
 
-*.xml text
-*.dtd text
-*.xsd text
-*.xsl text
+*.xml  text
+*.dtd  text
+*.xsd  text
+*.xsl  text
 
 #
 # Web
@@ -99,37 +99,37 @@
 *.html text diff=html
 
 # Cascading style sheet
-*.css text diff=css
+*.css  text diff=css
 
 #
 # Archive
 #
 
 # tape archive
-*.tar binary
+*.tar  binary
 
 # archive file
-*.zip binary
+*.zip  binary
 
 #
 # Database
 #
 
 # Database file
-*.dbf binary
+*.dbf  binary
 
 # Multiple index file
-*.mdx binary
+*.mdx  binary
 
 #
 # Spreadsheet
 #
 
 # OpenOffice.org Calc spreadsheet File Format
-*.ods binary
+*.ods  binary
 
 # Microsoft Excel File Format
-*.xls binary
+*.xls  binary
 
 # Microsoft Office Open XML Excel File Format
 *.xlsx binary

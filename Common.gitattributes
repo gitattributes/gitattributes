@@ -38,10 +38,12 @@
 *.tif binary
 *.tiff binary
 *.ico binary
-# SVG treated as an asset (binary) by default. If you want to treat it as text,
-# comment-out the following line and uncomment the line after.
-*.svg binary
-#*.svg text
+# SVG treated as an asset (binary) by default.
+*.svg text
+# If you want to treat it as text,
+# use the following line instead.
+# *.svg binary
+
 *.eps binary
 
 #

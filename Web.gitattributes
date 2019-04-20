@@ -141,7 +141,11 @@ Procfile    text
 *.png  binary
 *.psb  binary
 *.psd  binary
-*.svg  text
+# SVG treated as an asset (binary) by default.
+*.svg text
+# If you want to treat it as text,
+# use the following line instead.
+# *.svg binary
 *.svgz binary
 *.tif  binary
 *.tiff binary

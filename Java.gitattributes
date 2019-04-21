@@ -6,6 +6,7 @@
 # The above will handle all files NOT found below
 #
 # These files are text and should be normalized (Convert crlf => lf)
+*.bash          text eol=lf
 *.css           text diff=css
 *.df            text
 *.htm           text diff=html
@@ -17,7 +18,7 @@
 *.jspf          text
 *.jspx          text
 *.properties    text
-*.sh            text
+*.sh            text eol=lf
 *.tld           text
 *.txt           text
 *.tag           text

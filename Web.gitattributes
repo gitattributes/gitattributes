@@ -16,6 +16,7 @@
 *               text=auto
 
 # Source code
+*.bash          text eol=lf
 *.bat           text eol=crlf
 *.coffee        text
 *.css           text

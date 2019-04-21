@@ -18,6 +18,7 @@
 # Source code
 *.bash          text eol=lf
 *.bat           text eol=crlf
+*.cmd           text eol=crlf
 *.coffee        text
 *.css           text
 *.htm           text diff=html
@@ -32,6 +33,7 @@
 *.onlydata      text
 *.php           text diff=php
 *.pl            text
+*.ps1           text eol=crlf
 *.py            text diff=python
 *.rb            text diff=ruby
 *.sass          text

@@ -40,7 +40,7 @@
 *.ico      binary
 # SVG treated as an asset (binary) by default.
 *.svg      text
-# If you want to treat it as text,
+# If you want to treat it as binary,
 # use the following line instead.
 # *.svg    binary
 

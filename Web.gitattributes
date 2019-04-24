@@ -29,6 +29,7 @@
 *.json          text
 *.jsx           text
 *.less          text
+*.ls            text
 *.od            text
 *.onlydata      text
 *.php           text diff=php

@@ -136,6 +136,7 @@ Procfile          text
 *.bmp             binary
 *.eps             binary
 *.gif             binary
+*.gifv            binary
 *.ico             binary
 *.jng             binary
 *.jp2             binary

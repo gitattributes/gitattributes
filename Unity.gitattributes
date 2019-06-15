@@ -1,0 +1,118 @@
+# Unity
+*.cginc   text
+*.cs      diff=csharp text
+*.shader  text
+
+# Unity YAML
+*.mat         merge=unityyamlmerge eol=lf
+*.anim        merge=unityyamlmerge eol=lf
+*.unity       merge=unityyamlmerge eol=lf
+*.prefab      merge=unityyamlmerge eol=lf
+*.asset       merge=unityyamlmerge eol=lf
+*.meta        merge=unityyamlmerge eol=lf
+*.controller  merge=unityyamlmerge eol=lf
+
+# "physic" for 3D but "physics" for 2D
+*.physicMaterial2D   merge=unityyamlmerge eol=lf
+*.physicMaterial     merge=unityyamlmerge eol=lf
+*.physicsMaterial2D  merge=unityyamlmerge eol=lf
+*.physicsMaterial    merge=unityyamlmerge eol=lf
+
+# Unity LFS
+*.cubemap       filter=lfs diff=lfs merge=lfs -text
+*.unitypackage  filter=lfs diff=lfs merge=lfs -text
+
+# 3D models
+*.3dm      filter=lfs diff=lfs merge=lfs -text
+*.3ds      filter=lfs diff=lfs merge=lfs -text
+*.blend    filter=lfs diff=lfs merge=lfs -text
+*.c4d      filter=lfs diff=lfs merge=lfs -text
+*.collada  filter=lfs diff=lfs merge=lfs -text
+*.dae      filter=lfs diff=lfs merge=lfs -text
+*.dxf      filter=lfs diff=lfs merge=lfs -text
+*.FBX      filter=lfs diff=lfs merge=lfs -text
+*.fbx      filter=lfs diff=lfs merge=lfs -text
+*.jas      filter=lfs diff=lfs merge=lfs -text
+*.lws      filter=lfs diff=lfs merge=lfs -text
+*.lxo      filter=lfs diff=lfs merge=lfs -text
+*.ma       filter=lfs diff=lfs merge=lfs -text
+*.max      filter=lfs diff=lfs merge=lfs -text
+*.mb       filter=lfs diff=lfs merge=lfs -text
+*.obj      filter=lfs diff=lfs merge=lfs -text
+*.ply      filter=lfs diff=lfs merge=lfs -text
+*.skp      filter=lfs diff=lfs merge=lfs -text
+*.stl      filter=lfs diff=lfs merge=lfs -text
+*.ztl      filter=lfs diff=lfs merge=lfs -text
+
+# Audio
+*.aif   filter=lfs diff=lfs merge=lfs -text
+*.aiff  filter=lfs diff=lfs merge=lfs -text
+*.it    filter=lfs diff=lfs merge=lfs -text
+*.mod   filter=lfs diff=lfs merge=lfs -text
+*.mp3   filter=lfs diff=lfs merge=lfs -text
+*.ogg   filter=lfs diff=lfs merge=lfs -text
+*.s3m   filter=lfs diff=lfs merge=lfs -text
+*.wav   filter=lfs diff=lfs merge=lfs -text
+*.xm    filter=lfs diff=lfs merge=lfs -text
+
+# Video
+*.asf   filter=lfs diff=lfs merge=lfs -text
+*.avi   filter=lfs diff=lfs merge=lfs -text
+*.flv   filter=lfs diff=lfs merge=lfs -text
+*.mov   filter=lfs diff=lfs merge=lfs -text
+*.mp4   filter=lfs diff=lfs merge=lfs -text
+*.mpeg  filter=lfs diff=lfs merge=lfs -text
+*.mpg   filter=lfs diff=lfs merge=lfs -text
+*.ogv   filter=lfs diff=lfs merge=lfs -text
+*.wmv   filter=lfs diff=lfs merge=lfs -text
+
+# Images
+*.bmp   filter=lfs diff=lfs merge=lfs -text
+*.exr   filter=lfs diff=lfs merge=lfs -text
+*.gif   filter=lfs diff=lfs merge=lfs -text
+*.hdr   filter=lfs diff=lfs merge=lfs -text
+*.iff   filter=lfs diff=lfs merge=lfs -text
+*.jpeg  filter=lfs diff=lfs merge=lfs -text
+*.jpg   filter=lfs diff=lfs merge=lfs -text
+*.pict  filter=lfs diff=lfs merge=lfs -text
+*.png   filter=lfs diff=lfs merge=lfs -text
+*.psd   filter=lfs diff=lfs merge=lfs -text
+*.tga   filter=lfs diff=lfs merge=lfs -text
+*.tif   filter=lfs diff=lfs merge=lfs -text
+*.tiff  filter=lfs diff=lfs merge=lfs -text
+
+# Compressed Archive
+*.7z   filter=lfs diff=lfs merge=lfs -text
+*.bz2  filter=lfs diff=lfs merge=lfs -text
+*.gz   filter=lfs diff=lfs merge=lfs -text
+*.rar  filter=lfs diff=lfs merge=lfs -text
+*.tar  filter=lfs diff=lfs merge=lfs -text
+*.zip  filter=lfs diff=lfs merge=lfs -text
+
+# Compiled Dynamic Library
+*.dll  filter=lfs diff=lfs merge=lfs -text
+*.pdb  filter=lfs diff=lfs merge=lfs -text
+*.so   filter=lfs diff=lfs merge=lfs -text
+
+# Fonts
+*.otf  filter=lfs diff=lfs merge=lfs -text
+*.ttf  filter=lfs diff=lfs merge=lfs -text
+
+# Executable/Installer
+*.apk  filter=lfs diff=lfs merge=lfs -text
+*.exe  filter=lfs diff=lfs merge=lfs -text
+
+# Documents
+*.pdf  filter=lfs diff=lfs merge=lfs -text
+
+# ETC
+*.a       filter=lfs diff=lfs merge=lfs -text
+*.rns     filter=lfs diff=lfs merge=lfs -text
+*.reason  filter=lfs diff=lfs merge=lfs -text
+
+# Collapse Unity-generated files on GitHub
+*.asset   linguist-generated
+*.mat     linguist-generated
+*.meta    linguist-generated
+*.prefab  linguist-generated
+*.unity   linguist-generated

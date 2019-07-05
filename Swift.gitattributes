@@ -1,0 +1,2 @@
+*.pbxproj merge=union
+*.swift   text diff=swift

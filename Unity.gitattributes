@@ -18,6 +18,9 @@
 *.physicsMaterial2D  merge=unityyamlmerge eol=lf
 *.physicsMaterial    merge=unityyamlmerge eol=lf
 
+# Using Git LFS
+# Add diff=lfs merge=lfs to the binary files
+
 # Unity LFS
 *.cubemap            binary
 *.unitypackage       binary

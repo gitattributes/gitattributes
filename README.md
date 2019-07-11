@@ -13,9 +13,10 @@ Please contribute by [forking][fk] and sending a [pull request][pr].
 Also **please** only modify **one file** per commit. This'll
 make merging easier for everyone.
 
-For more information on gitattributes: [gitattributes(5)][g5]
+For more information on gitattributes: [gitattributes(5)][g5] and for Github-specific grammar: [Linguist docs][gh]
 
 [gt]: https://github.com/github/gitignore
 [fk]: http://help.github.com/forking/
 [pr]: http://help.github.com/pull-requests/
 [g5]: http://schacon.github.com/git/gitattributes.html
+[gh]: https://www.rubydoc.info/github/github/linguist

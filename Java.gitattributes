@@ -1,41 +1,28 @@
-# Handle line endings automatically for files detected as text
-# and leave all files detected as binary untouched.
-*               text=auto
+# Java sources
+*.java          text diff=java
+*.gradle        text diff=java
+*.gradle.kts    text diff=java
 
-#
-# The above will handle all files NOT found below
-#
 # These files are text and should be normalized (Convert crlf => lf)
-*.bash          text eol=lf
 *.css           text diff=css
 *.df            text
 *.htm           text diff=html
 *.html          text diff=html
-*.java          text diff=java
 *.js            text
-*.json          text
 *.jsp           text
 *.jspf          text
 *.jspx          text
 *.properties    text
-*.sh            text eol=lf
 *.tld           text
-*.txt           text
 *.tag           text
 *.tagx          text
 *.xml           text
-*.yml           text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
 *.class         binary
 *.dll           binary
 *.ear           binary
-*.gif           binary
-*.ico           binary
 *.jar           binary
-*.jpg           binary
-*.jpeg          binary
-*.png           binary
 *.so            binary
 *.war           binary

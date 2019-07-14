@@ -44,9 +44,7 @@
 # If you want to treat it as binary,
 # use the following line instead.
 # *.svg    binary
-
 *.eps      binary
-
 
 # Scripts
 *.bash     text eol=lf
@@ -54,20 +52,20 @@
 # These are explicitly windows files and should use crlf
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
-
+*.ps1      text eol=crlf
 
 # Serialisation
 *.json     text
+*.toml     text
+*.xml      text
 *.yaml     text
 *.yml      text
-
 
 # Archives
 *.7z       binary
 *.gz       binary
 *.tar      binary
 *.zip      binary
-
 
 #
 # Exclude files from exporting

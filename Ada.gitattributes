@@ -4,3 +4,5 @@
 
 # Ada files
 *.ada text diff=ada
+*.adb text diff=ada
+*.ads text diff=ada

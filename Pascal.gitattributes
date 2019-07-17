@@ -12,6 +12,7 @@
 *.pas      text diff=pascal
 
 # Pascal code
+*.p        text diff=pascal
 *.pp       text diff=pascal
 
 # Lazarus Resource file (this is a generated file; not to be confused with a Windows resource file).

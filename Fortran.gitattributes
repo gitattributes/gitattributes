@@ -4,6 +4,7 @@
 
 # Fortran files
 *.f   text diff=fortran
+*.for text diff=fortran
 *.f90 text diff=fortran
 *.f95 text diff=fortran
 *.f03 text diff=fortran

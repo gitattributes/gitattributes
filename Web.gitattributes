@@ -100,6 +100,7 @@ TODO              text
 # Linters
 .csslintrc        text
 .eslintrc         text
+.eslintignore     text
 .htmlhintrc       text
 .jscsrc           text
 .jshintrc         text
@@ -118,9 +119,14 @@ TODO              text
 .gitattributes    text
 .gitconfig        text
 .htaccess         text
+.mocharc          text
+.nycrc            text
+.prettierrc       text
+.prettierignore   text
 *.lock            text -diff
 package-lock.json text -diff
 *.npmignore       text
+*.toml            text
 *.yaml            text
 *.yml             text
 browserslist      text

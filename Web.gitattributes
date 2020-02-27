@@ -195,5 +195,5 @@ Procfile          text
 # RC files (like .babelrc or .eslintrc)
 *.*rc             text
 
-# ignore files (like .npmignore or .gitignore)
+# Ignore files (like .npmignore or .gitignore)
 *.*ignore         text

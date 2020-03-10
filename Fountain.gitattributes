@@ -1,0 +1,8 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+*          text=auto
+
+# Fountain files
+*.fountain text diff=fountain
+*.pdf      binary
+*.fdx      text

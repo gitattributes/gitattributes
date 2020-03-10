@@ -1,0 +1,8 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+*     text=auto
+
+# Ada files
+*.ada text diff=ada
+*.adb text diff=ada
+*.ads text diff=ada

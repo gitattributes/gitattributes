@@ -13,7 +13,10 @@
 ##   Handle line endings automatically for files detected as
 ##   text and leave all files detected as binary untouched.
 ##   This will handle all files NOT defined below.
+
 *                 text=auto
+* linguist-vendored
+*.js linguist-vendored=true
 
 # Source code
 *.bash            text eol=lf

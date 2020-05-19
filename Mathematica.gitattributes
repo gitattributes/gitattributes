@@ -6,5 +6,6 @@
 *.wls            text diff=mathematica
 *.wl             text diff=mathematica
 *.m              text diff=mathematica
+*.mx             text diff=mathematica
 
-# Caution: *.m also matches Mathematica packages.
+# Caution: *.m also matches Matlab files.

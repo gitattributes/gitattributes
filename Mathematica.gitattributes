@@ -6,6 +6,17 @@
 *.wls            text diff=mathematica
 *.wl             text diff=mathematica
 *.m              text diff=mathematica
-*.mx             text diff=mathematica
 
 # Caution: *.m also matches Matlab files.
+
+# Test files
+# ==========
+*.wlt            text diff=mathematica
+*.mt             text diff=mathematica
+
+
+# Binary files
+# ============
+*.mx             binary
+
+

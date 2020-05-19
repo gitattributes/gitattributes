@@ -1,0 +1,18 @@
+# Basic .gitattributes for a Mathematica repo.
+
+# Source files
+# Caution: *.m also matches Matlab files.
+# ============
+*.nb             text diff=mathematica
+*.wls            text diff=mathematica
+*.wl             text diff=mathematica
+*.m              text diff=mathematica
+
+# Test files
+# ==========
+*.wlt            text diff=mathematica
+*.mt             text diff=mathematica
+
+# Binary files
+# ============
+*.mx             binary

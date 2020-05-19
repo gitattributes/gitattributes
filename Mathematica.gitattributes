@@ -1,0 +1,10 @@
+# Basic .gitattributes for a Mathematica repo.
+
+# Source files
+# ============
+*.nb             text diff=mathematica
+*.wls            text diff=mathematica
+*.wl             text diff=mathematica
+*.m              text diff=mathematica
+
+# Caution: *.m also matches Mathematica packages.

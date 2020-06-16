@@ -26,7 +26,7 @@
 *.wixproj    text eol=crlf
 *.modelproj  text eol=crlf
 *.sqlproj    text eol=crlf
-*.wmaproj    text eol=crlf
+*.wwaproj    text eol=crlf
 
 *.xproj      text eol=crlf
 *.props      text eol=crlf

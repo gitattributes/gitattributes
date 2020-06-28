@@ -2,10 +2,13 @@
 
 # Source files
 # ============
-*.Rdata text
+*.Rdata binary
+*.RData binary
+*.rda   binary
 *.rdb   binary
 *.rds   binary
 *.Rd    text
 *.Rdx   binary
-*.Rmd	text
-*.R  	text
+*.Rmd	  text
+*.R  	  text
+*.Rproj text

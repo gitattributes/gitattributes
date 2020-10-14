@@ -1,0 +1,8 @@
+# Basic .gitattributes for a Vim repo.
+# Vim on Linux works with LF only, Vim on Windows works with both LF and CRLF
+
+# Source files
+# ============
+*.vim text eol=lf
+.vimrc text eol=lf
+.gvimrc text eol=lf

@@ -4,3 +4,5 @@
 # Source files
 # ============
 *.vim text eol=lf
+.vimrc text eol=lf
+.gvimrc text eol=lf

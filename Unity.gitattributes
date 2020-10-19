@@ -119,3 +119,6 @@
 *.meta              linguist-generated
 *.prefab            linguist-generated
 *.unity             linguist-generated
+
+# Spine export file for Unity
+*.skel.bytes        binary

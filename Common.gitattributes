@@ -30,6 +30,8 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+# PowerShell core is cross-platform and so it should not be forced to use crlf
+*.ps1      text
 
 # Graphics
 *.png      binary
@@ -53,7 +55,6 @@
 # These are explicitly windows files and should use crlf
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
-*.ps1      text eol=crlf
 
 # Serialisation
 *.json     text

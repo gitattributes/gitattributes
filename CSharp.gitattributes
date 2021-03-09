@@ -1,5 +1,9 @@
 # Auto detect text files and perform LF normalization
-# https://www.davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
 *    text=auto
 
+# Custom for Visual Studio
 *.cs text diff=csharp
+*.cshtml text diff=html
+*.csx text diff=csharp
+*.sln    text eol=crlf merge=union
+*.csproj text merge=union

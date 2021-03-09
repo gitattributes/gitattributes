@@ -1,12 +1,8 @@
 # Auto detect text files and perform LF normalization
-*    text=auto
+*          text=auto
 
 # Custom for Visual Studio
-*.fs     text diff=fsharp
-*.fsx    text diff=fsharp
-*.sln    text eol=crlf merge=union
-*.fsproj text merge=union
-
-mono/launcher text eol=lf
-mono/config.make text eol=lf
-targets.make text eol=lf
+*.fs       text diff=fsharp
+*.fsx      text diff=fsharp
+*.sln      text eol=crlf merge=union
+*.fsproj   text merge=union

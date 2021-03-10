@@ -1,8 +1,7 @@
 # Auto detect text files and perform LF normalization
 *          text=auto
 
-*.cs       text diff=csharp
-*.cshtml   text diff=html
-*.csx      text diff=csharp
+*.fs       text diff=fsharp
+*.fsx      text diff=fsharp
 *.sln      text eol=crlf merge=union
-*.csproj   text merge=union
+*.fsproj   text merge=union

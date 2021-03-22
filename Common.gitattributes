@@ -20,7 +20,7 @@
 *.PDF      diff=astextplain
 *.rtf      diff=astextplain
 *.RTF      diff=astextplain
-*.md       text
+*.md       text diff=markdown
 *.tex      text diff=tex
 *.adoc     text
 *.textile  text
@@ -30,7 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
-*.ps1      text
+*.ps1      text eol=crlf
 
 # Graphics
 *.png      binary

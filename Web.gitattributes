@@ -20,7 +20,7 @@
 *.bat             text eol=crlf
 *.cmd             text eol=crlf
 *.coffee          text
-*.css             text
+*.css             text diff=css
 *.htm             text diff=html
 *.html            text diff=html
 *.inc             text
@@ -35,7 +35,7 @@
 *.onlydata        text
 *.php             text diff=php
 *.pl              text
-*.ps1             text
+*.ps1             text eol=crlf
 *.py              text diff=python
 *.rb              text diff=ruby
 *.sass            text
@@ -55,12 +55,12 @@ Dockerfile        text
 
 # Documentation
 *.ipynb           text
-*.markdown        text
-*.md              text
-*.mdwn            text
-*.mdown           text
-*.mkd             text
-*.mkdn            text
+*.markdown        text diff=markdown
+*.md              text diff=markdown
+*.mdwn            text diff=markdown
+*.mdown           text diff=markdown
+*.mkd             text diff=markdown
+*.mkdn            text diff=markdown
 *.mdtxt           text
 *.mdtext          text
 *.txt             text
@@ -106,7 +106,10 @@ TODO              text
 .gitconfig        text
 .htaccess         text
 *.lock            text -diff
-package-lock.json text -diff
+package.json      text eol=lf
+package-lock.json text eol=lf -diff
+pnpm-lock.yaml    text eol=lf -diff
+yarn.lock         text -diff
 *.toml            text
 *.yaml            text
 *.yml             text

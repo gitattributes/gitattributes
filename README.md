@@ -18,5 +18,5 @@ For more information on gitattributes: [gitattributes(5)][g5] and for Github-spe
 [gt]: https://github.com/github/gitignore
 [fk]: http://help.github.com/forking/
 [pr]: http://help.github.com/pull-requests/
-[g5]: http://schacon.github.com/git/gitattributes.html
+[g5]: https://www.git-scm.com/docs/gitattributes
 [gh]: https://www.rubydoc.info/github/github/linguist

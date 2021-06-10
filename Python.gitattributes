@@ -16,9 +16,9 @@
 *.p      binary
 *.pkl    binary
 *.pickle binary
-*.pyc    binary
+*.pyc    binary export-ignore
+*.pyo    binary export-ignore
 *.pyd    binary
-*.pyo    binary
 
 # Jupyter notebook
 *.ipynb  text

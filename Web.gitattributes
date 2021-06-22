@@ -91,6 +91,7 @@ TODO              text
 *.mustache        text
 *.njk             text
 *.phtml           text
+*.svelte          text
 *.tmpl            text
 *.tpl             text
 *.twig            text

@@ -30,7 +30,6 @@
 *.tsv      text
 *.txt      text
 *.sql      text
-*.ps1      text eol=crlf
 
 # Graphics
 *.png      binary
@@ -51,9 +50,11 @@
 *.bash     text eol=lf
 *.fish     text eol=lf
 *.sh       text eol=lf
+*.zsh      text eol=lf
 # These are explicitly windows files and should use crlf
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
+*.ps1      text eol=crlf
 
 # Serialisation
 *.json     text

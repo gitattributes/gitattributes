@@ -1,10 +1,15 @@
 # Java sources
 *.java          text diff=java
+*.kt            text diff=java
+*.groovy        text diff=java
+*.scala         text diff=java
 *.gradle        text diff=java
 *.gradle.kts    text diff=java
 
 # These files are text and should be normalized (Convert crlf => lf)
 *.css           text diff=css
+*.scss          text diff=css
+*.sass          text
 *.df            text
 *.htm           text diff=html
 *.html          text diff=html

@@ -1,11 +1,11 @@
 # Sources
-*.c     text diff=c
+*.c     text diff=cpp
 *.cc    text diff=cpp
 *.cxx   text diff=cpp
 *.cpp   text diff=cpp
 *.c++   text diff=cpp
 *.hpp   text diff=cpp
-*.h     text diff=c
+*.h     text diff=cpp
 *.h++   text diff=cpp
 *.hh    text diff=cpp
 

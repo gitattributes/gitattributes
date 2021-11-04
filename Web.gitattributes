@@ -82,6 +82,7 @@ TODO              text
 # Templates
 *.dot             text
 *.ejs             text
+*.erb             text
 *.haml            text
 *.handlebars      text
 *.hbs             text

@@ -48,6 +48,7 @@
 # Scripts
 *.bash     text eol=lf
 *.fish     text eol=lf
+*.R        text eol=lf
 *.sh       text eol=lf
 *.zsh      text eol=lf
 # These are explicitly windows files and should use crlf

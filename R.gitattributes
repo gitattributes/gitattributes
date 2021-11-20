@@ -12,4 +12,4 @@
 *.Rmd	  text
 *.R  	  text
 *.Rproj text
-*.Rmd   linguist-language=R
+*.[Rr]md   linguist-detectable

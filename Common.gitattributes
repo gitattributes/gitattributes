@@ -64,6 +64,7 @@
 *.pssc     text eol=crlf
 *.psrc     text eol=crlf
 *.cdxml    text eol=crlf
+*.vbs      text eol=crlf
 
 # Serialisation
 *.json     text

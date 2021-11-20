@@ -55,7 +55,7 @@
 *.py       text eol=lf
 *.pyc      text eol=lf
 *.pyo      text eol=lf
-*.rbd      text eol=lf
+*.rb       text eol=lf
 *.sh       text eol=lf
 *.zsh      text eol=lf
 # These are explicitly windows files and should use crlf

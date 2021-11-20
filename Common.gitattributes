@@ -53,7 +53,17 @@
 # These are explicitly windows files and should use crlf
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
+*.msh      text eol=crlf
+*.mshxml   text eol=crlf
+*.mcf      text eol=crlf
 *.ps1      text eol=crlf
+*.ps1x     text eol=crlf
+*.psm1     text eol=crlf
+*.psd1     text eol=crlf
+*.ps1xml   text eol=crlf
+*.pssc     text eol=crlf
+*.psrc     text eol=crlf
+*.cdxml    text eol=crlf
 
 # Serialisation
 *.json     text

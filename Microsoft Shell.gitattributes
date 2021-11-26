@@ -1,0 +1,12 @@
+
+# Basic .gitattributes for a Microsoft Shell repo.
+
+# Source files
+# ============
+*.msh      text eol=crlf
+*.msh1     text eol=crlf
+*.msh2     text eol=crlf
+*.mshxml   text eol=crlf
+*.msh1xml  text eol=crlf
+*.msh2xml  text eol=crlf
+*.mcf      text eol=crlf

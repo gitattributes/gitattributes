@@ -83,6 +83,7 @@
 *.tga                binary
 *.tif                binary
 *.tiff               binary
+*.webp               binary
 
 # Compressed Archive
 *.7z                binary

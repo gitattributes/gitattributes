@@ -30,6 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+*.epub filter=lfs diff=lfs merge=lfs -text
 
 # Graphics
 *.png      binary

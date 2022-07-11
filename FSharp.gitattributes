@@ -3,5 +3,5 @@
 
 *.fs       text diff=fsharp
 *.fsx      text diff=fsharp
-*.sln      text eol=crlf merge=union
-*.fsproj   text merge=union
+*.sln      text eol=crlf
+*.fsproj   text eol=crlf

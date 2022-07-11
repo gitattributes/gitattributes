@@ -4,5 +4,5 @@
 *.cs       text diff=csharp
 *.cshtml   text diff=html
 *.csx      text diff=csharp
-*.sln      text eol=crlf merge=union
-*.csproj   text merge=union
+*.sln      text eol=crlf
+*.csproj   text eol=crlf

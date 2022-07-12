@@ -30,6 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+*.epub     diff=astextplain
 
 # Graphics
 *.png      binary

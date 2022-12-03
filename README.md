@@ -22,6 +22,11 @@ else
 fi
 ```
 
+## Contributors
+<a href="https://github.com/alexkaratarakis/gitattributes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=alexkaratarakis/gitattributes" />
+</a>
+
 ## Contributing
 
 Please contribute by [forking][fk] and sending a [pull request][pr].

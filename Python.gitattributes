@@ -21,7 +21,7 @@
 *.pyd    binary
 
 # Jupyter notebook
-*.ipynb  text
+*.ipynb  text eol=lf
 
 # Note: .db, .p, and .pkl files are associated
 # with the python modules ``pickle``, ``dbm.*``,

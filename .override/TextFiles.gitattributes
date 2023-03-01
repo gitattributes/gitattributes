@@ -1,0 +1,5 @@
+# Apply override to all files in the directory
+*.txt linguist-vendored=false
+*.txt linguist-generated=false
+*.txt linguist-documentation=false
+*.txt linguist-detectable=true

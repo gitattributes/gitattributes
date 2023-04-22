@@ -31,7 +31,7 @@
 *.chm  binary
 
 # Comma Separated Values text file format
-*.csv  text
+*.csv  text eol=crlf
 
 # Directly executable program
 *.exe  binary

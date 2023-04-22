@@ -25,7 +25,7 @@
 *.adoc     text
 *.textile  text
 *.mustache text
-*.csv      text
+*.csv      text eol=crlf
 *.tab      text
 *.tsv      text
 *.txt      text

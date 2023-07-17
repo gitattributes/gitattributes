@@ -210,3 +210,6 @@ Procfile          text
 
 # Ignore files (like .npmignore or .gitignore)
 *.*ignore         text
+
+# Prevents massive diffs from built files
+dist/*            binary

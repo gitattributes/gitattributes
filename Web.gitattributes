@@ -120,6 +120,8 @@ yarn.lock         text -diff
 browserslist      text
 Makefile          text
 makefile          text
+# Fixes syntax highlighting on GitHub to allow comments
+tsconfig.json     linguist-language=JSON-with-Comments
 
 # Heroku
 Procfile          text
@@ -199,9 +201,15 @@ Procfile          text
 # Executables
 *.exe             binary
 *.pyc             binary
+# Prevents massive diffs caused by vendored, minified files
+**/.yarn/releases/**   binary
+**/.yarn/plugins/**    binary
 
 # RC files (like .babelrc or .eslintrc)
 *.*rc             text
 
 # Ignore files (like .npmignore or .gitignore)
 *.*ignore         text
+
+# Prevents massive diffs from built files
+dist/*            binary

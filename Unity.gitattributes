@@ -1,25 +1,29 @@
+# Define macros
+[attr]unity-yaml    merge=unityyamlmerge text
+[attr]lfs           filter=lfs diff=lfs merge=lfs -text
+
 # Unity
 *.cginc              text
 *.cs                 text diff=csharp
 *.shader             text
 
 # Unity YAML
-*.mat                merge=unityyamlmerge eol=lf
-*.anim               merge=unityyamlmerge eol=lf
-*.unity              merge=unityyamlmerge eol=lf
-*.prefab             merge=unityyamlmerge eol=lf
-*.asset              merge=unityyamlmerge eol=lf
-*.meta               merge=unityyamlmerge eol=lf
-*.controller         merge=unityyamlmerge eol=lf
+*.mat                unity-yaml
+*.anim               unity-yaml
+*.unity              unity-yaml
+*.prefab             unity-yaml
+*.asset              unity-yaml
+*.meta               unity-yaml
+*.controller         unity-yaml
 
 # "physic" for 3D but "physics" for 2D
-*.physicMaterial2D   merge=unityyamlmerge eol=lf
-*.physicMaterial     merge=unityyamlmerge eol=lf
-*.physicsMaterial2D  merge=unityyamlmerge eol=lf
-*.physicsMaterial    merge=unityyamlmerge eol=lf
+*.physicMaterial2D   unity-yaml
+*.physicMaterial     unity-yaml
+*.physicsMaterial2D  unity-yaml
+*.physicsMaterial    unity-yaml
 
 # Using Git LFS
-# Add diff=lfs merge=lfs to the binary files
+# Replace 'binary' with 'lfs' on large files you wish to track with LFS
 
 # Unity LFS
 *.cubemap            binary

@@ -18,8 +18,6 @@
 
 # "physic" for 3D but "physics" for 2D
 *.physicMaterial    unity-yaml
-*.physicMaterial2D  unity-yaml
-*.physicsMaterial   unity-yaml
 *.physicsMaterial2D unity-yaml
 
 # Using Git LFS

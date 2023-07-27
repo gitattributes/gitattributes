@@ -1,6 +1,6 @@
 # Define macros
-[attr]unity-yaml    merge=unityyamlmerge text
 [attr]lfs           filter=lfs diff=lfs merge=lfs -text
+[attr]unity-yaml    merge=unityyamlmerge text
 
 # Unity
 *.cginc             text
@@ -8,19 +8,19 @@
 *.shader            text
 
 # Unity YAML
-*.mat               unity-yaml
 *.anim              unity-yaml
-*.unity             unity-yaml
-*.prefab            unity-yaml
 *.asset             unity-yaml
-*.meta              unity-yaml
 *.controller        unity-yaml
+*.mat               unity-yaml
+*.meta              unity-yaml
+*.prefab            unity-yaml
+*.unity             unity-yaml
 
 # "physic" for 3D but "physics" for 2D
-*.physicMaterial2D  unity-yaml
 *.physicMaterial    unity-yaml
-*.physicsMaterial2D unity-yaml
+*.physicMaterial2D  unity-yaml
 *.physicsMaterial   unity-yaml
+*.physicsMaterial2D unity-yaml
 
 # Using Git LFS
 # Replace 'binary' with 'lfs' on large files you wish to track with LFS
@@ -115,8 +115,8 @@
 
 # ETC
 *.a                 binary
-*.rns               binary
 *.reason            binary
+*.rns               binary
 
 # Collapse Unity-generated files on GitHub
 *.asset             linguist-generated

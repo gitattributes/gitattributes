@@ -1,6 +1,6 @@
 # Define macros
 [attr]lfs           filter=lfs diff=lfs merge=lfs -text
-[attr]unity-yaml    merge=unityyamlmerge text
+[attr]unity-yaml    merge=unityyamlmerge text linguist-language=yaml
 
 # Unity
 *.cginc             text

@@ -2,6 +2,9 @@
 [attr]lfs           filter=lfs diff=lfs merge=lfs -text
 [attr]unity-yaml    merge=unityyamlmerge text linguist-language=yaml
 
+# Optionally collapse Unity-generated files on GitHub diffs
+# [attr]unity-yaml    merge=unityyamlmerge text linguist-language=yaml linguist-generated
+
 # Unity
 *.cginc             text
 *.cs                text diff=csharp
@@ -115,13 +118,6 @@
 *.a                 binary
 *.reason            binary
 *.rns               binary
-
-# Collapse Unity-generated files on GitHub
-*.asset             linguist-generated
-*.mat               linguist-generated
-*.meta              linguist-generated
-*.prefab            linguist-generated
-*.unity             linguist-generated
 
 # Spine export file for Unity
 *.skel.bytes        binary

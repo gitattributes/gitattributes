@@ -12,6 +12,7 @@
 *.compute               text linguist-language=hlsl
 *.cs                    text diff=csharp
 *.index                 text linguist-language=json
+*.inputactions          text linguist-language=json
 *.raytrace              text linguist-language=hlsl
 *.shader                text
 *.shadergraph           text linguist-language=json

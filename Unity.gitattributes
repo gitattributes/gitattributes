@@ -19,7 +19,7 @@
 *.shadersubgraph        text linguist-language=json
 *.tss                   text diff=css linguist-language=css
 *.uss                   text diff=css linguist-language=css
-*.uxml                  text linguist-language=xml
+*.uxml                  text linguist-language=xml linguist-detectable
 
 # Unity YAML
 *.anim                  unity-yaml

@@ -6,9 +6,19 @@
 # [attr]unity-yaml    merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
 # Unity
+*.asmdef            text linguist-language=json
+*.asmref            text linguist-language=json
 *.cginc             text
+*.compute           text linguist-language=hlsl
 *.cs                text diff=csharp
+*.index             text linguist-language=json
+*.raytrace          text linguist-language=hlsl
 *.shader            text
+*.shadergraph       text linguist-language=json
+*.shadersubgraph    text linguist-language=json
+*.tss               text diff=css linguist-language=css
+*.uss               text diff=css linguist-language=css
+*.uxml              text linguist-language=xml
 
 # Unity YAML
 *.anim              unity-yaml

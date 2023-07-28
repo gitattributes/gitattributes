@@ -29,6 +29,7 @@
 *.fontsettings          unity-yaml
 *.giparams              unity-yaml
 *.guiskin               unity-yaml
+*.lighting              unity-yaml
 *.mask                  unity-yaml
 *.mat                   unity-yaml
 *.meta                  unity-yaml
@@ -40,6 +41,7 @@
 *.scenetemplate         unity-yaml
 *.shadervariants        unity-yaml
 *.spriteatlas           unity-yaml
+*.spriteatlasv2         unity-yaml
 *.terrainlayer          unity-yaml
 *.unity                 unity-yaml
 

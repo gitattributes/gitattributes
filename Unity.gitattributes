@@ -5,18 +5,22 @@
 # Optionally collapse Unity-generated files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
-# Unity
-*.asmdef                text linguist-language=json
-*.asmref                text linguist-language=json
+# Unity files
 *.cginc                 text
 *.compute               text linguist-language=hlsl
 *.cs                    text diff=csharp
-*.index                 text linguist-language=json
-*.inputactions          text linguist-language=json
 *.raytrace              text linguist-language=hlsl
 *.shader                text
+
+# Unity JSON files
+*.asmdef                text linguist-language=json
+*.asmref                text linguist-language=json
+*.index                 text linguist-language=json
+*.inputactions          text linguist-language=json
 *.shadergraph           text linguist-language=json
 *.shadersubgraph        text linguist-language=json
+
+# Unity UI Toolkit files
 *.tss                   text diff=css linguist-language=css
 *.uss                   text diff=css linguist-language=css
 *.uxml                  text linguist-language=xml linguist-detectable

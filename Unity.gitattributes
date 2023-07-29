@@ -41,6 +41,7 @@
 *.renderTexture         unity-yaml
 *.scenetemplate         unity-yaml
 *.shadervariants        unity-yaml
+*.signal                unity-yaml
 *.spriteatlas           unity-yaml
 *.spriteatlasv2         unity-yaml
 *.terrainlayer          unity-yaml

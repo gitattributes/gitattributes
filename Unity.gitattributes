@@ -38,6 +38,7 @@
 *.overrideController    unity-yaml
 *.playable              unity-yaml
 *.prefab                unity-yaml
+*.preset                unity-yaml
 *.renderTexture         unity-yaml
 *.scenetemplate         unity-yaml
 *.shadervariants        unity-yaml

@@ -56,6 +56,9 @@
 *.physicMaterial        unity-yaml
 *.physicsMaterial2D     unity-yaml
 
+# Exclude third-party plugins from GitHub stats
+Assets/Plugins/**       linguist-vendored
+
 # Unity LFS
 *.cubemap               lfs
 *.unitypackage          lfs

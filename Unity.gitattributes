@@ -1,6 +1,6 @@
 # Define macros (only works in top-level gitattributes files)
 [attr]lfs               filter=lfs diff=lfs merge=lfs -text
-[attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml
+[attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
 # Optionally collapse Unity-generated files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated

@@ -1,6 +1,6 @@
-# Define macros
+# Define macros (only works in top-level gitattributes files)
 [attr]lfs               filter=lfs diff=lfs merge=lfs -text
-[attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml
+[attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
 # Optionally collapse Unity-generated files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
@@ -56,101 +56,101 @@
 *.physicMaterial        unity-yaml
 *.physicsMaterial2D     unity-yaml
 
-# Using Git LFS
-# Replace 'binary' with 'lfs' on large files you wish to track with LFS
+# Exclude third-party plugins from GitHub stats
+Assets/Plugins/**       linguist-vendored
 
 # Unity LFS
-*.cubemap               binary
-*.unitypackage          binary
+*.cubemap               lfs
+*.unitypackage          lfs
 
 # 3D models
-*.3dm                   binary
-*.3ds                   binary
-*.blend                 binary
-*.c4d                   binary
-*.collada               binary
-*.dae                   binary
-*.dxf                   binary
-*.FBX                   binary
-*.fbx                   binary
-*.jas                   binary
-*.lws                   binary
-*.lxo                   binary
-*.ma                    binary
-*.max                   binary
-*.mb                    binary
-*.obj                   binary
-*.ply                   binary
-*.skp                   binary
-*.stl                   binary
-*.ztl                   binary
+*.3dm                   lfs
+*.3ds                   lfs
+*.blend                 lfs
+*.c4d                   lfs
+*.collada               lfs
+*.dae                   lfs
+*.dxf                   lfs
+*.FBX                   lfs
+*.fbx                   lfs
+*.jas                   lfs
+*.lws                   lfs
+*.lxo                   lfs
+*.ma                    lfs
+*.max                   lfs
+*.mb                    lfs
+*.obj                   lfs
+*.ply                   lfs
+*.skp                   lfs
+*.stl                   lfs
+*.ztl                   lfs
 
 # Audio
-*.aif                   binary
-*.aiff                  binary
-*.it                    binary
-*.mod                   binary
-*.mp3                   binary
-*.ogg                   binary
-*.s3m                   binary
-*.wav                   binary
-*.xm                    binary
+*.aif                   lfs
+*.aiff                  lfs
+*.it                    lfs
+*.mod                   lfs
+*.mp3                   lfs
+*.ogg                   lfs
+*.s3m                   lfs
+*.wav                   lfs
+*.xm                    lfs
 
 # Video
-*.asf                   binary
-*.avi                   binary
-*.flv                   binary
-*.mov                   binary
-*.mp4                   binary
-*.mpeg                  binary
-*.mpg                   binary
-*.ogv                   binary
-*.wmv                   binary
+*.asf                   lfs
+*.avi                   lfs
+*.flv                   lfs
+*.mov                   lfs
+*.mp4                   lfs
+*.mpeg                  lfs
+*.mpg                   lfs
+*.ogv                   lfs
+*.wmv                   lfs
 
 # Images
-*.bmp                   binary
-*.exr                   binary
-*.gif                   binary
-*.hdr                   binary
-*.iff                   binary
-*.jpeg                  binary
-*.jpg                   binary
-*.pict                  binary
-*.png                   binary
-*.psd                   binary
-*.tga                   binary
-*.tif                   binary
-*.tiff                  binary
-*.webp                  binary
+*.bmp                   lfs
+*.exr                   lfs
+*.gif                   lfs
+*.hdr                   lfs
+*.iff                   lfs
+*.jpeg                  lfs
+*.jpg                   lfs
+*.pict                  lfs
+*.png                   lfs
+*.psd                   lfs
+*.tga                   lfs
+*.tif                   lfs
+*.tiff                  lfs
+*.webp                  lfs
 
 # Compressed Archive
-*.7z                    binary
-*.bz2                   binary
-*.gz                    binary
-*.rar                   binary
-*.tar                   binary
-*.zip                   binary
+*.7z                    lfs
+*.bz2                   lfs
+*.gz                    lfs
+*.rar                   lfs
+*.tar                   lfs
+*.zip                   lfs
 
 # Compiled Dynamic Library
-*.dll                   binary
-*.pdb                   binary
-*.so                    binary
+*.dll                   lfs
+*.pdb                   lfs
+*.so                    lfs
 
 # Fonts
-*.otf                   binary
-*.ttf                   binary
+*.otf                   lfs
+*.ttf                   lfs
 
 # Executable/Installer
-*.apk                   binary
-*.exe                   binary
+*.apk                   lfs
+*.exe                   lfs
 
 # Documents
-*.pdf                   binary
+*.pdf                   lfs
 
 # ETC
-*.a                     binary
-*.reason                binary
-*.rns                   binary
+*.a                     lfs
+*.reason                lfs
+*.rns                   lfs
 
 # Spine export file for Unity
-*.skel.bytes            binary
+*.skel.bytes            lfs

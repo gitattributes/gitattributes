@@ -13,12 +13,12 @@ You can use [this handy dandy generator](https://richienb.github.io/gitattribute
 To check if all files have a corresponding rule in .gitattributes, this script can be used:
 
 ```sh
-missing_attributes=$(git ls-files | git check-attr -a --stdin | grep "text: auto")
-if [[ "$missing_attributes" ]]; then
-  echo ".gitattributes rule missing for the following files:";
-  echo "$missing_attributes";
+missing_attributes=$(git ls-files | git check-attr -a --stdin | grep 'text: auto' || printf '\n')
+
+if [ -n "$missing_attributes" ]; then
+  printf '%s\n%s\n' '.gitattributes rule missing for the following files:' "$missing_attributes"
 else
-  echo "All files have a corresponding rule in .gitattributes";
+  printf '%s\n' 'All files have a corresponding rule in .gitattributes'
 fi
 ```
 

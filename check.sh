@@ -221,7 +221,7 @@ verify_system() {
 
 # Verify gitattributes
 verify_gitattributes() {
-    _missing_attributes=$(git ls-files | git check-attr --all --stdin | grep 'text: auto' || printf '\n')
+    _missing_attributes=$(git "--git-dir=$GIT_DIR" ls-files | git "--git-dir=$GIT_DIR" check-attr --all --stdin | grep 'text: auto' || printf '\n')
 
     if [ -n "$_missing_attributes" ]; then
         ERROR ".gitattributes rule missing for the following files:\n$_missing_attributes"

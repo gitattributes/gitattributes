@@ -157,7 +157,7 @@ EOF
 # @param $1 Argument name
 # @param $2 Argument value
 _parse_args_assert_value() {
-    [ -n "$2" ] || ERROR "Argument '$1' requires a non-empty value"
+    [ -n "${2+x}" ] || ERROR "Argument '$1' requires a non-empty value"
 }
 
 # Parse command line arguments

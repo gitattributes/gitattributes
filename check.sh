@@ -233,6 +233,7 @@ verify_gitattributes() {
 # ================
 # CONFIGURATION
 # ================
+# Git directory
 GIT_DIR=".git"
 # Log level
 LOG_LEVEL=$LOG_LEVEL_INFO

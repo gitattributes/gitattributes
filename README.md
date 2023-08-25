@@ -38,4 +38,4 @@ For more information on gitattributes: [gitattributes(5)][g5] and for Github-spe
 [fk]: http://help.github.com/forking/
 [pr]: http://help.github.com/pull-requests/
 [g5]: https://www.git-scm.com/docs/gitattributes
-[gh]: https://www.rubydoc.info/github/github/linguist
+[gh]: https://github.com/github-linguist/linguist/blob/master/docs/overrides.md

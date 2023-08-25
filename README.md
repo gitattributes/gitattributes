@@ -22,6 +22,9 @@ else
 fi
 ```
 
+You can also use the checked-in `./check.sh` which has more features.
+Run `./check.sh --help` for the available options.
+
 ## Contributing
 
 Please contribute by [forking][fk] and sending a [pull request][pr].

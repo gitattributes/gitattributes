@@ -129,7 +129,7 @@ check_cmd() {
 # Show help message
 show_help() {
     cat << EOF
-Usage: $(basename "$0")
+Usage: ${0##*/}
          [--disable-color] [--git-dir <DIR>] [--help]
          [--log-level <LEVEL>]
 

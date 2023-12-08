@@ -10,3 +10,5 @@
 *.sec -text
 *.css text diff=css
 *.js       seol=lf
+*.mjs      seol=lf
+*.cjs      seol=lf

@@ -13,6 +13,8 @@
 *.htm           text diff=html
 *.html          text diff=html
 *.js            text
+*.mjs           text
+*.cjs           text
 *.json          text
 *.properties    text
 *.sh            text eol=lf

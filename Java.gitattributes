@@ -14,6 +14,8 @@
 *.htm           text diff=html
 *.html          text diff=html
 *.js            text
+*.mjs           text
+*.cjs           text
 *.jsp           text
 *.jspf          text
 *.jspx          text

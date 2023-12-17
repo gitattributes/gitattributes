@@ -9,6 +9,6 @@
 *.dbi -text
 *.sec -text
 *.css text diff=css
-*.js       seol=lf
-*.mjs      seol=lf
-*.cjs      seol=lf
+*.js       eol=lf
+*.mjs      eol=lf
+*.cjs      eol=lf

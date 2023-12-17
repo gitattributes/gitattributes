@@ -2,9 +2,9 @@
 *.hcl eol=lf
 
 # Terraform
-*.tf text eol=lf
+*.tf      text eol=lf
 *.tf.json text eol=lf
-*.tfvars text eol=lf
+*.tfvars  text eol=lf
 
 # Vagrant
 Vagrantfile text eol=lf

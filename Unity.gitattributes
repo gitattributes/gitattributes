@@ -1,24 +1,26 @@
 # Define macros (only works in top-level gitattributes files)
 [attr]lfs               filter=lfs diff=lfs merge=lfs -text
+[attr]unity-json        eol=lf linguist-language=json
 [attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
 # Optionally collapse Unity-generated files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
-# Unity files
+# Unity source files
 *.cginc                 text
 *.compute               text linguist-language=hlsl
 *.cs                    text diff=csharp
+*.hlsl                  text linguist-language=hlsl
 *.raytrace              text linguist-language=hlsl
 *.shader                text
 
 # Unity JSON files
-*.asmdef                text linguist-language=json
-*.asmref                text linguist-language=json
-*.index                 text linguist-language=json
-*.inputactions          text linguist-language=json
-*.shadergraph           text linguist-language=json
-*.shadersubgraph        text linguist-language=json
+*.asmdef                unity-json
+*.asmref                unity-json
+*.index                 unity-json
+*.inputactions          unity-json
+*.shadergraph           unity-json
+*.shadersubgraph        unity-json
 
 # Unity UI Toolkit files
 *.tss                   text diff=css linguist-language=css

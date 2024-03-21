@@ -67,10 +67,24 @@
 
 # Archives
 *.7z       binary
+*.bz       binary
+*.bz2      binary
+*.bzip2    binary
 *.gz       binary
+*.lz       binary
+*.lzma     binary
+*.rar      binary
 *.tar      binary
+*.taz      binary
+*.tbz      binary
+*.tbz2     binary
 *.tgz      binary
+*.tlz      binary
+*.txz      binary
+*.xz       binary
+*.Z        binary
 *.zip      binary
+*.zst      binary
 
 # Text files where line endings should be preserved
 *.patch    -text

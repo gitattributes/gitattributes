@@ -6,3 +6,6 @@
 *.ada text diff=ada
 *.adb text diff=ada
 *.ads text diff=ada
+
+# GNAT Project files (syntax similar to Ada)
+*.gpr linguist-language=Ada

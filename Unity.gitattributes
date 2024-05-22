@@ -156,3 +156,6 @@ Assets/Plugins/**       linguist-vendored
 
 # Spine export file for Unity
 *.skel.bytes            lfs
+
+# Exceptions for .asset files such as lightning pre-baking
+LightningData.asset     binary

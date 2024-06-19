@@ -1,0 +1,14 @@
+# Basic .gitattributes for a Dyalog APL repo.
+# This template includes MiServer
+
+# Source files
+# ============
+*.apl?          linguist-language=APL
+*.dyalog        linguist-language=APL
+*.dyapp         linguist-language=APL
+*.mipage        linguist-language=APL
+
+# Config and log files
+# ====================
+.dcfg           linguist-language=JSON5
+.dlf            linguist-language=JSON5

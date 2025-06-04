@@ -46,7 +46,7 @@
 *.odt  text
 
 # Portable Document Format
-*.pdf  text
+*.pdf  binary
 
 # PostScript
 *.ps   text

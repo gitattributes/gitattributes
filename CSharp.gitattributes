@@ -5,4 +5,5 @@
 *.cshtml   text diff=html
 *.csx      text diff=csharp
 *.sln      text eol=crlf
+*.slnx     text eol=crlf
 *.csproj   text eol=crlf

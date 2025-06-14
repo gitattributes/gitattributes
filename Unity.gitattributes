@@ -69,6 +69,7 @@ Assets/Plugins/**       linguist-vendored
 *.3dm                   lfs
 *.3ds                   lfs
 *.blend                 lfs
+*.blend1                lfs
 *.c4d                   lfs
 *.collada               lfs
 *.dae                   lfs

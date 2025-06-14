@@ -3,7 +3,7 @@
 [attr]unity-json        eol=lf linguist-language=json
 [attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
 
-# Optionally collapse Unity-generated files on GitHub diffs
+# Optionally collapse Unity YAML files on GitHub diffs
 # [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
 
 # Unity source files
@@ -27,7 +27,7 @@
 *.uss                   text diff=css linguist-language=css
 *.uxml                  text linguist-language=xml linguist-detectable
 
-# Unity YAML
+# Unity YAML files
 *.anim                  unity-yaml
 *.asset                 unity-yaml
 *.brush                 unity-yaml
@@ -58,8 +58,9 @@
 *.physicMaterial        unity-yaml
 *.physicsMaterial2D     unity-yaml
 
-# Exclude third-party plugins from GitHub stats
-Assets/Plugins/**       linguist-vendored
+# Exclude from GitHub stats and diffs: third-party plugins, packages lock file
+Assets/Plugins/**           linguist-generated
+Packages/packages-lock.json linguist-generated
 
 # Unity LFS
 *.cubemap               lfs

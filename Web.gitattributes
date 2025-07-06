@@ -214,4 +214,4 @@ Procfile          text
 *.*ignore         text
 
 # Prevents massive diffs from built files
-dist/*            binary
+dist/**           binary

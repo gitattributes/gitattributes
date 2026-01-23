@@ -1,0 +1,26 @@
+# Auto detect text files and perform normalization
+*          text=auto
+
+# Source files
+*.zig      text diff=zig
+
+# Build files
+build.zig  text diff=zig
+build.zig.zon text
+
+# Compiled Object files
+*.o        binary
+*.obj      binary
+
+# Static libraries
+*.a        binary
+*.lib      binary
+
+# Dynamic libraries
+*.so       binary
+*.dylib    binary
+*.dll      binary
+
+# Executables
+*.exe      binary
+*.out      binary

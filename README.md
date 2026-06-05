@@ -11,8 +11,7 @@ Consider including them if they are applicable to your project.
 For more information on gitattributes: [gitattributes(5)][g5] and for
 Github-specific grammar: [Linguist docs][gh]
 
-You can use [this](https://richienb.github.io/gitattributes-generator) or
-[this](https://gitattributes.com/) handy dandy generator to generate your
+You can use [this](https://richienb.github.io/gitattributes-generator) handy dandy generator to generate your
 gitattributes files on the fly based on files inside of this repository.
 
 ## CI step

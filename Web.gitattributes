@@ -215,3 +215,28 @@ Procfile          text
 
 # Prevents massive diffs from built files
 dist/**           binary
+
+
+# The following is a set of liens specifically made for Firebase hosting projects.
+# you may comment them out if you do not use firebase
+# Firebase config files
+.firebase.json     text eol=lf
+.firebaserc        text eol=lf
+
+# Firebase Hosting
+firebase.json      text eol=lf
+database.rules.json text eol=lf
+firestore.rules     text eol=lf
+storage.rules       text eol=lf
+
+# Firebase Emulator files
+*.cache            binary
+firebase-debug.log text
+firebase-debug.*.log text
+
+# Firebase Functions 
+functions/**/*.js   text
+functions/**/*.ts   text
+functions/package.json      text eol=lf
+functions/package-lock.json text eol=lf -diff
+

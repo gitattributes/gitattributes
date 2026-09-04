@@ -1,3 +1,4 @@
 # Fix syntax highlighting on GitHub to allow comments
 .devcontainer.json linguist-language=JSON-with-Comments
 devcontainer.json linguist-language=JSON-with-Comments
+devcontainer-feature.json linguist-language=JSON-with-Comments

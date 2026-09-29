@@ -1,16 +1,13 @@
 # Define macros (only works in top-level gitattributes files)
-[attr]lfs               filter=lfs diff=lfs merge=lfs -text
+[attr]lfs               -text filter=lfs diff=lfs merge=lfs
 [attr]unity-json        eol=lf linguist-language=json
-[attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
-
-# Optionally collapse Unity YAML files on GitHub diffs
-# [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
+[attr]unity-yaml        eol=lf linguist-language=yaml merge=unityyamlmerge
 
 # Unity source files
 *.cginc                 text
 *.compute               text linguist-language=hlsl
 *.cs                    text diff=csharp
-*.hlsl                  text linguist-language=hlsl
+*.hlsl                  text
 *.raytrace              text linguist-language=hlsl
 *.shader                text
 
@@ -23,44 +20,44 @@
 *.shadersubgraph        unity-json
 
 # Unity UI Toolkit files
-*.tss                   text diff=css linguist-language=css
-*.uss                   text diff=css linguist-language=css
+*.tss                   text linguist-language=css diff=css
+*.uss                   text linguist-language=css diff=css
 *.uxml                  text linguist-language=xml linguist-detectable
 
 # Unity YAML files
-*.anim                  unity-yaml
-*.asset                 unity-yaml
-*.brush                 unity-yaml
-*.controller            unity-yaml
-*.flare                 unity-yaml
-*.fontsettings          unity-yaml
-*.giparams              unity-yaml
-*.guiskin               unity-yaml
-*.lighting              unity-yaml
-*.mask                  unity-yaml
-*.mat                   unity-yaml
-*.meta                  unity-yaml
-*.mixer                 unity-yaml
-*.overrideController    unity-yaml
-*.playable              unity-yaml
-*.prefab                unity-yaml
-*.preset                unity-yaml
-*.renderTexture         unity-yaml
-*.scenetemplate         unity-yaml
-*.shadervariants        unity-yaml
-*.signal                unity-yaml
-*.spriteatlas           unity-yaml
-*.spriteatlasv2         unity-yaml
-*.terrainlayer          unity-yaml
-*.unity                 unity-yaml
+*.anim                              unity-yaml
+*.asset                             unity-yaml
+*.brush                             unity-yaml
+*.controller                        unity-yaml
+*.flare                             unity-yaml
+*.fontsettings                      unity-yaml
+*.giparams                          unity-yaml
+*.guiskin                           unity-yaml
+*.lighting                          unity-yaml
+*.mask                              unity-yaml
+*.mat                               unity-yaml
+*.meta                              unity-yaml
+*.mixer                             unity-yaml
+*.overrideController                unity-yaml
+*.playable                          unity-yaml
+*.prefab                            unity-yaml
+*.preset                            unity-yaml
+*.renderTexture                     unity-yaml
+*.scenetemplate                     unity-yaml
+*.shadervariants                    unity-yaml
+*.signal                            unity-yaml
+*.spriteatlas                       unity-yaml
+*.spriteatlasv2                     unity-yaml
+*.terrainlayer                      unity-yaml
+*.unity                             unity-yaml
 
 # "physic" for 3D but "physics" for 2D
-*.physicMaterial        unity-yaml
-*.physicsMaterial2D     unity-yaml
+*.physicMaterial                    unity-yaml
+*.physicsMaterial2D                 unity-yaml
 
 # Exclude from GitHub stats and diffs: third-party plugins, packages lock file
-Assets/Plugins/**           linguist-generated
-Packages/packages-lock.json linguist-generated
+Assets/Plugins/**                   linguist-generated
+Packages/packages-lock.json         linguist-generated
 
 # Unity LFS
 *.cubemap               lfs
@@ -127,7 +124,7 @@ Packages/packages-lock.json linguist-generated
 *.tiff                  lfs
 *.webp                  lfs
 
-# Compressed Archive
+# Archives
 *.7z                    lfs
 *.bz2                   lfs
 *.gz                    lfs
@@ -159,5 +156,5 @@ Packages/packages-lock.json linguist-generated
 # Spine export file for Unity
 *.skel.bytes            lfs
 
-# Exceptions for .asset files such as lightning pre-baking
-LightingData.asset     binary
+# Exceptions for .asset files such as lighting pre-baking
+LightingData.asset      binary

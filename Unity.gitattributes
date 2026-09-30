@@ -179,9 +179,7 @@ Assets/TextMesh[[:space:]]Pro/**    linguist-generated
 *.zip                   lfs
 
 # Compiled Dynamic Library
-*.dll                   lfs
 *.pdb                   lfs
-*.so                    lfs
 *.wasm                  lfs
 
 # Fonts
@@ -197,8 +195,37 @@ Assets/TextMesh[[:space:]]Pro/**    linguist-generated
 # Documents
 *.pdf                   lfs
 
-# ETC
+# Managed & native plug-ins (source files)
+*.c                     text diff=cpp
+*.cc                    text diff=cpp
+*.cpp                   text diff=cpp
+*.h                     text diff=cpp
+*.java                  text diff=java
+*.jslib                 text
+*.jspre                 text
+*.kt                    text diff=kotlin
+*.m                     text diff=objc linguist-language=objectivec
+*.mm                    text diff=objc linguist-language=objectivec
+*.swift                 text diff=swift
+*.xib                   text
+
+# Managed & native plug-ins (binary)
 *.a                     lfs
+*.aar                   lfs
+*.bc                    lfs
+*.dll                   lfs
+*.dylib                 lfs
+*.jar                   lfs
+*.prx                   lfs
+*.rpl                   lfs
+*.so                    lfs
+*.sprx                  lfs
+*.suprx                 lfs
+*.winmd                 lfs
+*.xcframework           lfs
+*.xex                   lfs
+
+# Misc.
 *.reason                lfs
 *.rns                   lfs
 

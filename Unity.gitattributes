@@ -1,69 +1,97 @@
 # Define macros (only works in top-level gitattributes files)
-[attr]lfs               filter=lfs diff=lfs merge=lfs -text
+[attr]lfs               -text filter=lfs diff=lfs merge=lfs
 [attr]unity-json        eol=lf linguist-language=json
-[attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
-
-# Optionally collapse Unity YAML files on GitHub diffs
-# [attr]unity-yaml        merge=unityyamlmerge text linguist-language=yaml linguist-generated
+[attr]unity-yaml        eol=lf linguist-language=yaml merge=unityyamlmerge
 
 # Unity source files
+*.cg                    text linguist-language=hlsl
 *.cginc                 text
 *.compute               text linguist-language=hlsl
 *.cs                    text diff=csharp
-*.hlsl                  text linguist-language=hlsl
+*.glslinc               text linguist-language=glsl
+*.hlsl                  text
 *.raytrace              text linguist-language=hlsl
 *.shader                text
 
 # Unity JSON files
 *.asmdef                unity-json
 *.asmref                unity-json
+*.graphicsstate         unity-json
 *.index                 unity-json
 *.inputactions          unity-json
 *.shadergraph           unity-json
 *.shadersubgraph        unity-json
 
+# Unity web template files
+*.css                   text diff=css
+*.html                  text diff=html
+*.js                    text
+*.webmanifest           text
+
 # Unity UI Toolkit files
-*.tss                   text diff=css linguist-language=css
-*.uss                   text diff=css linguist-language=css
+*.tss                   text linguist-language=css diff=css
+*.uss                   text linguist-language=css diff=css
 *.uxml                  text linguist-language=xml linguist-detectable
+*.xsd                   text linguist-generated
 
 # Unity YAML files
-*.anim                  unity-yaml
-*.asset                 unity-yaml
-*.brush                 unity-yaml
-*.controller            unity-yaml
-*.flare                 unity-yaml
-*.fontsettings          unity-yaml
-*.giparams              unity-yaml
-*.guiskin               unity-yaml
-*.lighting              unity-yaml
-*.mask                  unity-yaml
-*.mat                   unity-yaml
-*.meta                  unity-yaml
-*.mixer                 unity-yaml
-*.overrideController    unity-yaml
-*.playable              unity-yaml
-*.prefab                unity-yaml
-*.preset                unity-yaml
-*.renderTexture         unity-yaml
-*.scenetemplate         unity-yaml
-*.shadervariants        unity-yaml
-*.signal                unity-yaml
-*.spriteatlas           unity-yaml
-*.spriteatlasv2         unity-yaml
-*.terrainlayer          unity-yaml
-*.unity                 unity-yaml
+*.anim                              unity-yaml
+*.asset                             unity-yaml
+*.brush                             unity-yaml
+*.colors                            unity-yaml
+*.controller                        unity-yaml
+*.curves                            unity-yaml
+*.curvesNormalized                  unity-yaml
+*.flare                             unity-yaml
+*.fontsettings                      unity-yaml
+*.giparams                          unity-yaml
+*.gradients                         unity-yaml
+*.guiskin                           unity-yaml
+*.ht                                unity-yaml
+*.lighting                          unity-yaml
+*.mask                              unity-yaml
+*.mat                               unity-yaml
+*.meta                              unity-yaml
+*.mixer                             unity-yaml
+*.overrideController                unity-yaml
+*.particleCurves                    unity-yaml
+*.particleCurvesSigned              unity-yaml
+*.particleDoubleCurves              unity-yaml
+*.particleDoubleCurvesSigned        unity-yaml
+*.playable                          unity-yaml
+*.prefab                            unity-yaml
+*.preset                            unity-yaml
+*.renderTexture                     unity-yaml
+*.scenetemplate                     unity-yaml
+*.shadervariants                    unity-yaml
+*.signal                            unity-yaml
+*.spriteatlas                       unity-yaml
+*.spriteatlasv2                     unity-yaml
+*.spriteLib                         unity-yaml
+*.terrainlayer                      unity-yaml
+*.tileset                           unity-yaml
+*.unity                             unity-yaml
+*.vfx                               unity-yaml
+*.vfxblock                          unity-yaml
+*.vfxoperator                       unity-yaml
+*.webCamTexture                     unity-yaml
+*.d3d12devicefilter                 unity-yaml
+*.vulkandevicefilter                unity-yaml
+*.webgpudevicefilter                unity-yaml
 
 # "physic" for 3D but "physics" for 2D
-*.physicMaterial        unity-yaml
-*.physicsMaterial2D     unity-yaml
+*.physicMaterial                    unity-yaml
+*.physicsMaterial2D                 unity-yaml
 
 # Exclude from GitHub stats and diffs: third-party plugins, packages lock file
-Assets/Plugins/**           linguist-generated
-Packages/packages-lock.json linguist-generated
+Assets/Plugins/**                   linguist-generated
+Packages/packages-lock.json         linguist-generated
+Assets/TextMesh[[:space:]]Pro/**    linguist-generated
 
 # Unity LFS
+*.buildreport           lfs
 *.cubemap               lfs
+*.texture2D             lfs
 *.unitypackage          lfs
 
 # 3D models
@@ -85,13 +113,18 @@ Packages/packages-lock.json linguist-generated
 *.mb                    lfs
 *.obj                   lfs
 *.ply                   lfs
+*.sbsar                 lfs
 *.skp                   lfs
+*.spm                   lfs
+*.st                    lfs
+*.st9                   lfs
 *.stl                   lfs
 *.ztl                   lfs
 
 # Audio
 *.aif                   lfs
 *.aiff                  lfs
+*.flac                  lfs
 *.it                    lfs
 *.mod                   lfs
 *.mp3                   lfs
@@ -103,31 +136,41 @@ Packages/packages-lock.json linguist-generated
 # Video
 *.asf                   lfs
 *.avi                   lfs
+*.dv                    lfs
 *.flv                   lfs
+*.m4v                   lfs
 *.mov                   lfs
 *.mp4                   lfs
 *.mpeg                  lfs
 *.mpg                   lfs
 *.ogv                   lfs
+*.vp8                   lfs
+*.webm                  lfs
 *.wmv                   lfs
 
 # Images
+*.astc                  lfs
 *.bmp                   lfs
+*.dds                   lfs
 *.exr                   lfs
 *.gif                   lfs
 *.hdr                   lfs
 *.iff                   lfs
 *.jpeg                  lfs
 *.jpg                   lfs
+*.ktx                   lfs
+*.pct                   lfs
+*.pic                   lfs
 *.pict                  lfs
 *.png                   lfs
 *.psd                   lfs
+*.pvr                   lfs
 *.tga                   lfs
 *.tif                   lfs
 *.tiff                  lfs
 *.webp                  lfs
 
-# Compressed Archive
+# Archives
 *.7z                    lfs
 *.bz2                   lfs
 *.gz                    lfs
@@ -136,12 +179,13 @@ Packages/packages-lock.json linguist-generated
 *.zip                   lfs
 
 # Compiled Dynamic Library
-*.dll                   lfs
 *.pdb                   lfs
-*.so                    lfs
+*.wasm                  lfs
 
 # Fonts
+*.dfont                 lfs
 *.otf                   lfs
+*.ttc                   lfs
 *.ttf                   lfs
 
 # Executable/Installer
@@ -151,13 +195,42 @@ Packages/packages-lock.json linguist-generated
 # Documents
 *.pdf                   lfs
 
-# ETC
+# Managed & native plug-ins (source files)
+*.c                     text diff=cpp
+*.cc                    text diff=cpp
+*.cpp                   text diff=cpp
+*.h                     text diff=cpp
+*.java                  text diff=java
+*.jslib                 text
+*.jspre                 text
+*.kt                    text diff=kotlin
+*.m                     text diff=objc linguist-language=objectivec
+*.mm                    text diff=objc linguist-language=objectivec
+*.swift                 text diff=swift
+*.xib                   text
+
+# Managed & native plug-ins (binary)
 *.a                     lfs
+*.aar                   lfs
+*.bc                    lfs
+*.dll                   lfs
+*.dylib                 lfs
+*.jar                   lfs
+*.prx                   lfs
+*.rpl                   lfs
+*.so                    lfs
+*.sprx                  lfs
+*.suprx                 lfs
+*.winmd                 lfs
+*.xcframework           lfs
+*.xex                   lfs
+
+# Misc.
 *.reason                lfs
 *.rns                   lfs
 
 # Spine export file for Unity
 *.skel.bytes            lfs
 
-# Exceptions for .asset files such as lightning pre-baking
-LightingData.asset     binary
+# Exceptions for .asset files such as lighting pre-baking
+LightingData.asset      binary
